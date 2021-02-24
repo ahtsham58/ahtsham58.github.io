@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ahtsham Manzoor/ Site Title"
+title                    : "Ahtsham Manzoor"
 title_separator          : "-"
-name                     : &name "Ahtsham"
-description              : &description "Pre-doc Scientist at University of Klagenfurt"
+name                     : &name "Ahtsham Manzoor"
+description              : &description "Expert in AI, conversatinal recommender systems, NLP, HCI"
 url                      : https://ahtsham58.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ahtsham58.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Ahtsham"
   avatar           : "profile.png"
-  bio              : "Expert in AI, NLP, HCI"
+  bio              : "Pre-doc Scientist at University of Klagenfurt, Austria"
   location         : "Autria"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=VN29iVAAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
