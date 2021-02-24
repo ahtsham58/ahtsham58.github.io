@@ -15,7 +15,7 @@ url                      : https://ahtsham58.github.io # the base hostname & pro
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ahtsham58.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -82,12 +82,14 @@ analytics:
 author:
   name             : "Mr. Ahtsham Manzoor"
   avatar           : "profile.png"
-  bio              : "Pre-doc Scientist at University of Klagenfurt, Austria \n Expert in AI, conversatinal recommender systems, NLP, HCI"
+  bio              : "Pre-doc Scientist at University of Klagenfurt, Austria
+  
+                      Expert in AI, conversatinal recommender systems, NLP, HCI"
   location         : "Autria"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=VN29iVAAAAAJ&hl=en"
-  email            :  [ahtsham][dot][manzoor]{@}[aau][dot]{at}
+  email            :  "[ahtsham][dot][manzoor]{@}[aau][dot]{at}"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ahtsham58"
+  github           : #"ahtsham58"
   google_plus      :
   keybase          :
   instagram        :
