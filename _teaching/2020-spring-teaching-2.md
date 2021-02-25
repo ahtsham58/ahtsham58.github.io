@@ -2,9 +2,9 @@
 title: "2020"
 collection: teaching
 type: "Lecturer/Lab"
-permalink: /teaching/2015-spring-teaching-2
+permalink: /teaching/2020-spring-teaching-2
 venue: "University of Klagenfurt"
-date: Winter term 2020
+date: 2020-01-01
 location: "Klagenfurt, Austria"
 ---
 
