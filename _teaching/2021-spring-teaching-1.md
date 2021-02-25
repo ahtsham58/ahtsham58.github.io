@@ -8,7 +8,7 @@ date: 2021-03-03
 location: "Klagenfurt, Austria"
 ---
 
-winter'21
+winter'21 hello world
 
 Introduction to Computer Science
 ======
