@@ -82,7 +82,10 @@ analytics:
 author:
   name             : "Mr. Ahtsham Manzoor"
   avatar           : "profile.png"
-  bio              : "Pre-doc Scientist at University of Klagenfurt, Austria. Expert in AI, conversatinal recommender systems, NLP, HCI"
+  bio              : "Pre-doc Scientist at University of Klagenfurt, Austria. 
+  
+                    
+                    Expert in AI, conversatinal recommender systems, NLP, HCI"
   location         : "Austria"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
