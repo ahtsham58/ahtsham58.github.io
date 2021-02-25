@@ -9,6 +9,6 @@ location: "Klagenfurt, Austria"
 ---
 
 
-Winter 2020
+
 Introduction to Computer Science
 ======
