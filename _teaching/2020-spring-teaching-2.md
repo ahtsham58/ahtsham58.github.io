@@ -1,14 +1,14 @@
 ---
 title: "2020"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate courses"
 permalink: /teaching/2020-spring-teaching-2
 venue: "University of Klagenfurt"
 date: 2020-01-01
 location: "Klagenfurt, Austria"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+See a list of courses.
 
-Introduction to Computer Science
+Introduction to Computer Science, Winter'20
 ======
