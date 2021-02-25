@@ -8,7 +8,7 @@ date: 2021-03-03
 location: "Klagenfurt, Austria"
 ---
 
-Summer'21
+
 
 Introduction to Computer Science
 ======
@@ -16,5 +16,3 @@ Introduction to Computer Science
 Algorithms and Data Structures
 ======
 
-Heading 3
-======
