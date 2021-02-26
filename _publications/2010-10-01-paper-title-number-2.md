@@ -6,7 +6,7 @@ excerpt: 'This paper is about summarizing litrature of CRS domain spanning over 
 date: 2010-10-01
 venue: 'ACM Computing Surveys'
 paperurl: 'https://arxiv.org/abs/2004.00646'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+citation: 'D Jannach, A Manzoor, W Cai, L Chen, A survey on conversational recommender systems,arXiv preprint arXiv:2004.00646, 2020.'
 ---
 This paper is about summarizing litrature of CRS domain spanning over 2 decades.
 
