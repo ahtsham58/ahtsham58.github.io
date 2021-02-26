@@ -2,7 +2,7 @@
 title: "A Survey on Conversational Recommender Systems"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about summarizing litrature of CRS domain spanning over 2 decades. Precisely, we summarized interactive modalities, interaction paradigms, user modelling approaches, technical models' aspects and finally evaluation approaches of CRS.'
+excerpt: 'This paper is about summarizing litrature of CRS domain spanning over 2 decades.'
 date: 2010-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
