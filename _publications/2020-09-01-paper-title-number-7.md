@@ -1,5 +1,5 @@
 ---
-title: Towards retrieval-based conversational recommendation
+title: "Towards retrieval-based conversational recommendation"
 collection: publications
 date: 2022-09-01
 venue: 'Information Systems'

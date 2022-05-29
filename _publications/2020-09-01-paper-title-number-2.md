@@ -1,5 +1,5 @@
 ---
-title: ALAP: Accessible LaTeX Based Mathematical Document Authoring and Presentation
+title: "ALAP: Accessible LaTeX Based Mathematical Document Authoring and Presentation"
 collection: publications
 date: 2020-09-01
 venue: 'ACM SIGCHI'

@@ -1,5 +1,5 @@
 ---
-title: Generation-based vs. Retrieval-based Conversational Recommendation: A User-Centric Comparison
+title: "Generation-based vs. Retrieval-based Conversational Recommendation: A User-Centric Comparison"
 collection: publications
 date: 2020-09-01
 venue: 'ACM RecSys'

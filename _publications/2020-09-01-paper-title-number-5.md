@@ -1,5 +1,5 @@
 ---
-title: Conversational recommendation based on end-to-end learning: How far are we?
+title: "Conversational recommendation based on end-to-end learning: How far are we?"
 collection: publications
 date: 2021-09-01
 venue: 'Computers in Human Behavior Reports'
