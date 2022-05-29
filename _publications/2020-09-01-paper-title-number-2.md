@@ -1,14 +1,10 @@
 ---
-title: "End-to-End Learning for Conversational Recommendation: A Long Way to Go?"
+title: ALAP: Accessible LaTeX Based Mathematical Document Authoring and Presentation
 collection: publications
-permalink: /publication/2020-09-01-paper-title-number-2
-excerpt: 'This paper is about re-evaluation of end-to-end systems and their limitations.'
 date: 2020-09-01
-venue: 'IntRS Workshop at ACM RecSys 2020'
-paperurl: 'http://ceur-ws.org/Vol-2682/short1.pdf'
-citation: 'D Jannach, A Manzoor: End-to-End Learning for Conversational Recommendation: A Long Way to Go?, IntRS Workshop at ACM RecSys20'
+venue: 'SIGCHI '20'
+paperurl: 'https://dl.acm.org/doi/abs/10.1145/3290605.3300734'
 ---
-This paper is about re-evaluation of end-to-end systems and their limitations.
 
 
 
