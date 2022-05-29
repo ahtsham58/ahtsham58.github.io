@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mr. Ahtsham Manzoor"
+  name             : "Ahtsham Manzoor"
   avatar           : "profile.png"
   bio              : "Pre-doc Scientist at University of Klagenfurt, Austria. 
   
@@ -185,7 +185,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
