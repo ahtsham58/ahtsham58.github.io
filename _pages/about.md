@@ -30,4 +30,4 @@ From time to time, I am occupied as a technology consultant for providing my ser
 
 For more info
 ------
-In case of any query or of any help kind of correspondece, reach out to me at ahtsham.manzoor{@} gmail[dot][com]
+In case of any query or of any kind of correspondece, reach out to me at ahtsham.manzoor{@} gmail[dot][com]
