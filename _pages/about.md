@@ -22,12 +22,13 @@ Mainly, in my research, I use qualitative, quantitative, and computational resea
 
 Background and Life
 ======
-Currently, I am a Ph.D. scholar at the [University of Klagenfurt] (https://www.aau.at/en/), Austria.
-I received my Masters (MA) degree from [Lahore University of Management Sciences (LUMS)](https://lums.edu.pk/), Pakistan, and Bachelor's degree from the [University of Engineering and Technology (UET) Lahore](https://www.uet.edu.pk/), Pakistan.
-Usually, I spend me spare in traveling and walking around natural beauty sights and enjoy coffee there as this is one of hobbies that's hard to change. Moreover, I read books and articles particularly on human psyschology, technology, life aspects, etc.
-From time to time, I am occupied as a technology consultant for providing my services in the development of both IT projects and business models. This is one of the interesting hobbies I enjoy while working on complex problems and finding their solutions.
+Born in a village of central Punjab, Pakistan, where we used to sit on the ground in our early education classes and throughly enjoyed that period of life due to its similicity and traditions. 
+Later on, I moved to  Lahore (capital of Punjab) and earned my Bachelor's degree from the [University of Engineering and Technology (UET) Lahore](https://www.uet.edu.pk/) (a premier public sector university) in Pakistan.
+Then, to grasp the in depth-knowledge of computer science and experience research process, went for Master's (MA) degree to the [Lahore University of Management Sciences (LUMS)](https://lums.edu.pk/), Pakistan, a top-class instituion. 
+Usually, I spend me spare in traveling and walking around natural beauty sights and enjoy coffee as this is one of hobbies that's hard to change. Moreover, I enjoy reading books and articles particularly on human psyschology, technology, life aspects, etc.
+From time to time, I am occupied as a technology consultant for providing my services in the development of both IT projects and business models. This is something I enjoy while working on real-world complex problems and finding their solutions.
 
 
-For more info
+Contact:
 ------
 In case of any query or of any kind of correspondece, reach out to me at ahtsham.manzoor{@} gmail[dot][com]
