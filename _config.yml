@@ -85,7 +85,7 @@ author:
   bio              : "Pre-doc Scientist at University of Klagenfurt, Austria. 
   
                     
-                    Expert in Conversational AI, Information retrieval, NLP, HCI"
+                    Works in Conversational AI, Information retrieval, NLP, HCI"
   location         : "Austria"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -231,8 +231,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false
-      comments: false
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -249,7 +249,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false
+      share: true
 
 # Sass/SCSS
 sass:
