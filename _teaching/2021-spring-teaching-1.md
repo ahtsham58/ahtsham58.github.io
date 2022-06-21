@@ -7,11 +7,8 @@ venue: "University of Klagenfurt"
 date: 2021-01-01
 location: "Klagenfurt, Austria"
 ---
+2020-2023
 
-See a list of courses.
-
-Introduction to Computer Science, Summer'21
-======
-
-Algorithms and Data Structures, Summer'21
+### Introduction to Computer Science
+### Algorithms and Data Structures
 ======
