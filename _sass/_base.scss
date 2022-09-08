@@ -58,6 +58,9 @@ small, .small {
 }
 
 p {
+  width: 70%;
+  font-size: $type-size-6;
+  text-align: justify;
   margin-bottom: 1.3em;
 }
 
@@ -75,6 +78,10 @@ del a {
 }
 
 /* reduce orphans and widows when printing */
+
+ol {
+  font-size: $type-size-6;
+}
 
 p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
   orphans: 3;
