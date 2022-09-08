@@ -8,15 +8,51 @@ redirect_from:
   - /about.html
 ---
 
-I'm a senior research scientist in Delivery Hero SE.
+---
+permalink: /
+title: "About"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+<div style="text-align: justify"> 
+I am a Pre-doc scientist at the institute of <a href="https://www.aau.at/en/aics/"> Artificial Intelligence and Cyber Security 
+(AICS)</a>, <a href="https://www.aau.at/en/">University of Klagenfurt</a>, Austria. An enthusiast technologist who 
+loves developing and producing human-centric technologies with a background in Computer Sciences.
+Previously, I enjoyed my involvement in industrial and R&D based projects for various 
+international organizations. My research, teaching, and broader IT professional expertise are all grounded
+on the idea that computer-science produces technology, and technology is for humans. Since this human element is 
+contingent to technology, I presume where there are humans, psychology is there, which 
+makes human-centered-computing not a field rather objective.
+<br />
+</div>
 
-Previously, I held an assistant professor position in Distributed Systems at the [Department of Computer Science and Engineering](https://www.cs.uoi.gr/?lang=en) of the University of Ioannina in Greece.
-Prior to that I worked as a Postdoc researcher on scalable stream processing and data integration with Assis. Prof. [Asterios Katsifodimos](http://asterios.katsifodimos.com) at the [Web Information Systems](http://wis.ewi.tudelft.nl) group in [Delft University of Technology (TUDelft)](http://tudelft.nl).
+Research Interests
+======
+<div style="text-align: justify"> 
+My main research interests lie in the cross-sectional areas of Artificial Intelligence (AI), 
+Natural Language Processing (NLP), Information Retrieval, User-Experience, and Human-centered Computing (HCI). 
 
-I have a PhD in main memory data analytics from the Department of Management Science and Technology of the [Athens University of Economics and Business](http://aueb.gr) supervised by Prof. [Diomidis Spinellis](https://www.spinellis.gr). Before that I received an MSc with distinction in Computer Science from the Department of Computing of the [Imperial College London](http://imperial.ac.uk), and a BSc also from the Department of Management Science and Technology of the Athens University of Economics and Business.
+</div>
 
-I have worked as a cloud software engineer at [GRNET](https://grnet.gr) and as a software engineer at [COSMOTE](https://www.cosmote.gr) where I built and operated big data workflows.
+Background and Life
+======
+<div style="text-align: justify"> 
+Born in Pakistan, where we used to sit on the ground in our early education 
+classes and throughly enjoyed that period of life due to its similicity and traditions.
+In 2011, I moved to  Lahore (capital of Punjab) and earned my Bachelor's degree 
+from the <a href="https://www.uet.edu.pk"> University of Engineering and Technology (UET) Lahore </a> ,Pakistan.
+Then, to grasp the in-depth knowledge of computer science and to experience research process, 
+went for Master's (MS) degree to <a href="https://lums.edu.pk/">Lahore University of Management Sciences (LUMS)</a>, 
+Pakistan. In 2019, I moved to Austria for my doctorate degree. 
 
+
+Usually, I spend me spare time in walking around natural beauty sights with a cup of coffee. 
+Moreover, I enjoy reading books and articles particularly on human psyschology, 
+technology, life aspects, etc.
+</div>
 ### News
 
 - April 2022: Our paper "Join path-based data augmentations for decision trees" will be presented at the DBML workshop of ICDE 2022.
