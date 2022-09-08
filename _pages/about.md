@@ -7,22 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
----
-permalink: /
-title: "About"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
 <div style="text-align: justify"> 
 I am a Pre-doc scientist at the institute of <a href="https://www.aau.at/en/aics/"> Artificial Intelligence and Cyber Security 
 (AICS)</a>, <a href="https://www.aau.at/en/">University of Klagenfurt</a>, Austria. An enthusiast technologist who 
 loves developing and producing human-centric technologies with a background in Computer Sciences.
 Previously, I enjoyed my involvement in industrial and R&D based projects for various 
-international organizations. My research, teaching, and broader IT professional expertise are all grounded
+international organizations. My research, teaching, and broader IT exposure are all grounded
 on the idea that computer-science produces technology, and technology is for humans. Since this human element is 
 contingent to technology, I presume where there are humans, psychology is there, which 
 makes human-centered-computing not a field rather objective.

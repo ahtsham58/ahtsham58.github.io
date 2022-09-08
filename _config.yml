@@ -83,8 +83,8 @@ author:
   avatar           : "profile.png"
   bio              : "Pre-doc Scientist \n
                       Conversational AI, Information Retrieval, NLP, HCI"
-  location         : "Austria"
-  employer         : "University of Klagenfurt"
+  location         : 
+  employer         : "University of Klagenfurt, Austria"
   googlescholar    : "https://scholar.google.com/citations?user=VN29iVAAAAAJ&hl=en"
   email            : "[ahtsham][dot][manzoor]@[aau][dot]at"
   uri              :
@@ -99,7 +99,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/ahtsham-manzoor-67a7b761/"
+  linkedin         : "ahtsham-manzoor-67a7b761/"
   orcid            : "https://orcid.org/0000-0001-9418-7539"
   pinterest        :
   soundcloud       :
