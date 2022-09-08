@@ -11,9 +11,9 @@ title                    : "Ahtsham Manzoor"
 title_separator          : "-"
 name                     : &name "Ahtsham Manzoor"
 description              : &description "personal description"
-url                      : "http://mariosfragkoulis.gr" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ahtsham58.github.io" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mfragkoulis/academicpages.github.io"
+repository               : "ahtsham58.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -56,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : mariofragkoulis
+  username               : &twitter
 facebook:
   username               :
   app_id                 :
@@ -80,12 +80,13 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : "mfg.jpg"
-  bio              : 
-  location         : 
+  avatar           : "profile.png"
+  bio              : "Pre-doc Scientist at University of Klagenfurt, Austria. \n\n
+                      Conversational AI, Information Retrieval, NLP, HCI"
+  location         : "Austria"
   employer         :
-  googlescholar    : "https://scholar.google.gr/citations?user=bJiiymEAAAAJ&hl=en"
-  email            : M.Fragkoulis@tudelft.nl
+  googlescholar    : "https://scholar.google.com/citations?user=VN29iVAAAAAJ&hl=en"
+  email            : "[ahtsham][dot][manzoor]@[aau][dot]at"
   uri              :
   bitbucket        :
   codepen          :
@@ -93,7 +94,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "mfragkoulis"
+  github           : "ahtsham58"
   google_plus      :
   keybase          :
   instagram        :
@@ -105,7 +106,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "mariofragkoulis"
+  twitter          : "@ahtsham58"
   vine             :
   weibo            :
   xing             :
