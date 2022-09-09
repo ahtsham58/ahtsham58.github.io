@@ -35,7 +35,7 @@ classes and throughly enjoyed that period of life due to its similicity and trad
 In 2011, I moved to  Lahore and earned my Bachelor's degree 
 from the <a href="https://www.uet.edu.pk"> University of Engineering and Technology (UET) Lahore</a>, Pakistan.
 Then, to grasp the in-depth knowledge of computer science and to experience the research process, 
-I joined <a href="https://lums.edu.pk/">Lahore University of Management Sciences (LUMS)</a>,Pakistan for the Master's (MS) degree. In 2019, I moved to Austria. \n\n
+I joined <a href="https://lums.edu.pk/">Lahore University of Management Sciences (LUMS)</a>, Pakistan for the Master's (MS) degree. In 2019, I moved to Austria. \n\n
 
 
 Usually, I spend me spare time in walking around natural beauty sights with a cup of coffee. 
