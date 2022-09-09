@@ -1,11 +1,11 @@
 ---
-title: "Big data systems"
+title: "Data Structures and Algorithms"
 collection: teaching
-type: "Postgraduate course"
+type: "Undergraduate course"
 permalink: /teaching/2020-big-data-systems.md
-venue: "Athens University of Economics and Business, Department of Management Science and Technology"
-date: 2020-01-01
-location: "Athens, Greece"
+venue: "University of Klagenfurt"
+date: 2021-01-01
+location: "Klagenfurt, Austria"
 ---
 
-Course co-ordinator and co-instructor.
+Course instructor, co-ordinator.
