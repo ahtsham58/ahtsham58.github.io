@@ -186,8 +186,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   development:
-    output: true
-    permalink: /:collection/:path/
+    output: false
+    permalink: 
 
 
 # Defaults
@@ -248,7 +248,7 @@ defaults:
   # _development
   - scope:
       path: ""
-      type: development
+      type: #development
     values:
       layout: single
       author_profile: true
