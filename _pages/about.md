@@ -30,15 +30,14 @@ Natural Language Processing (NLP), Information Retrieval, User-Experience, and H
 Background and Life
 ======
 <div style="text-align: justify"> 
-Born in Pakistan, where we used to sit on the ground in our early education 
-classes and throughly enjoyed that period of life due to its similicity and traditions.
+Born in Pakistan in a town located at the centere of punjab province.
 In 2011, I moved to  Lahore and earned my Bachelor's degree 
 from the <a href="https://www.uet.edu.pk"> University of Engineering and Technology (UET) Lahore</a>, Pakistan.
 Then, to grasp the in-depth knowledge of computer science and to experience the research process, 
-I joined <a href="https://lums.edu.pk/">Lahore University of Management Sciences (LUMS)</a>, Pakistan for the Master's (MS) degree. In 2019, I moved to Austria. \n\n
+I joined <a href="https://lums.edu.pk/">Lahore University of Management Sciences (LUMS)</a>, Pakistan for the Master's (MS) degree. In 2019, I moved to Austria. 
 
 
-Usually, I spend me spare time in walking around natural beauty sights with a cup of coffee. 
+Usually, I spend my spare time in walking around natural beauty sights with a cup of coffee. 
 Moreover, I enjoy reading books and articles particularly on human psyschology, 
 technology, life aspects, etc.
 </div>
