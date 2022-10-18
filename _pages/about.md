@@ -7,10 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div style="text-align: justify"> 
-<iframe width="1260" height="756" src="https://openknowledgemaps.org/map/4ec00a32dd0f59f7c6f6738369e66de4?embed=true"></iframe>
-</div>
-
 
 <div style="text-align: justify"> 
 I am a Pre-doc scientist at the institute of <a href="https://www.aau.at/en/aics/"> Artificial Intelligence and Cyber Security 
