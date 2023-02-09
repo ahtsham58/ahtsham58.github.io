@@ -1,5 +1,5 @@
 ---
-title: "Reviewer at AI Review"
+title: "AI Review Journal"
 collection: service
 permalink: /service/2022-AIreview.md
 ---
