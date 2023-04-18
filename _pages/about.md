@@ -44,11 +44,12 @@ technology, life aspects, etc.
 </div>
 ### News
 
+- April 2023: I will be participating in CHI '23, coorganizing GPS sessions, Hamberg, Germany
+
 - September 2022: I will be serving as an SV for ACM RecSys 2022, Seattle, USA.
 
 - September 2022: Our paper "INSPIRED2: An Improved Dataset for Sociable Conversational Recommendation" will be presented in KaRS workshop at RecSys 2022.
 
 - September 2022: Our paper "INFACT: An Online Human Evaluation Framework for Conversational Recommendation" will be presented in KaRS workshop at RecSys 2022.
 
-- April 2022: I will be serving as a program committee member of "ICML 2022".
 
