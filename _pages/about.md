@@ -9,20 +9,20 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-Hi, I am a Pre-doc scientist at the institute of <a href="https://www.aau.at/en/aics/"> Artificial Intelligence and Cyber Security 
+Hi, I am a Senior scientist at the institute of <a href="https://www.aau.at/en/aics/"> Artificial Intelligence and Cyber Security 
 (AICS)</a>, <a href="https://www.aau.at/en/">University of Klagenfurt</a>, Austria. An enthusiast technologist who 
-loves developing and producing human-centric technologies with a background in Computer Sciences.
+loves developing and producing human-centric AI technologies with a background in Computer Sciences.
 Previously, I enjoyed my involvement in industrial and R&D based projects for various 
 international organizations. The foundation of my work, encompassing AI research, teaching, and broader IT exposure, 
 is based on the principle that computer sciences creates technology for humans. 
-By acknowledging the intrinsic relationship between technology and humans, 
+By acknowledging the intrinsic relationship between technology and humans, to me
 it is obvious that human-centered computing is not just a field of study, but an overarching objective.<br />
 </div>
 
 Research Interests
 ======
 <div style="text-align: justify"> 
-My main research interests lie in the cross-sectional areas of Artificial Intelligence (AI), 
+Overall, My main research interests lie in the cross-sectional areas of Artificial Intelligence (AI), 
 Natural Language Processing (NLP), Data mining, and User-experience (UX) research. 
 
 </div>
@@ -38,17 +38,15 @@ I joined <a href="https://lums.edu.pk/">Lahore University of Management Sciences
 
 
 Usually, I spend my spare time in walking around natural beauty sights with a cup of coffee. 
-Moreover, I enjoy reading books and articles particularly on LLMs, Generative AI, human psyschology, 
+Moreover, I enjoy reading books and articles particularly on generative AI, human psyschology, 
 technology, life aspects, etc.
 </div>
 ### News
 
+- July 2023: I will be contibuting as an SV in ACM RecSys '23, Singapore
+
 - April 2023: I will be participating in CHI '23, co-organizing GPS sessions, Hamberg, Germany
 
 - September 2022: I will be serving as an SV for ACM RecSys 2022, Seattle, USA.
-
-- September 2022: Our paper "INSPIRED2: An Improved Dataset for Sociable Conversational Recommendation" will be presented in KaRS workshop at RecSys 2022.
-
-- September 2022: Our paper "INFACT: An Online Human Evaluation Framework for Conversational Recommendation" will be presented in KaRS workshop at RecSys 2022.
 
 
