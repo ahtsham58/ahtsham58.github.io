@@ -43,7 +43,7 @@ technology, life aspects, etc.
 </div>
 ### News
 
-- July 2023: I will be contibuting as an SV in ACM RecSys '23, Singapore
+- July 2023: I will be serving as an SV in ACM RecSys '23, Singapore
 
 - April 2023: I will be participating in CHI '23, co-organizing GPS sessions, Hamberg, Germany
 
