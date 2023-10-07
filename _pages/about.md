@@ -17,7 +17,7 @@ Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en
 and Cyber Security (AICS) </a>
 at the <a href="https://www.aau.at/en/"> University of Klagenfurt </a>, Austria, where I also completed my Ph.D. in 2023. During my doctoral studies, 
 I authored 10 peer-reviewed publications, focusing on conversational recommender systems designed to assist users 
-in finding relevant items and making informed decisions using natural language interfaces. <br>
+in finding relevant items and making informed decisions using natural language interfaces. <br> <br>
 
 
 My primary research interests encompass Artificial Intelligence (AI), Natural Language Processing (NLP), 
@@ -27,7 +27,7 @@ to create technology that is more intuitive, efficient, and tailored to the need
 
 At the core of my work is the belief that computer sciences should aim to enhance the lives of people. 
 Recognizing the intrinsic link between technology and humanity, I view human-centered computing not merely 
-as a field of study, but as a broader mission. <br>
+as a field of study, but as a broader mission. <br> <br>
 
 
 Currently, my research is centered around the extensive exploration of large language models (LLMs) 
