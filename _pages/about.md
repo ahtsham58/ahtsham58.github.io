@@ -19,13 +19,16 @@ at the <a href="https://www.aau.at/en/"> University of Klagenfurt </a>, Austria,
 I authored 10 peer-reviewed publications, focusing on conversational recommender systems designed to assist users 
 in finding relevant items and making informed decisions using natural language interfaces.
 
+
 My primary research interests encompass Artificial Intelligence (AI), Natural Language Processing (NLP), 
 and User Experience (UX) research. I am committed to advancing these interdisciplinary fields 
 to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society.
 
+
 At the core of my work is the belief that computer sciences should aim to enhance the lives of people. 
 Recognizing the intrinsic link between technology and humanity, I view human-centered computing not merely 
 as a field of study, but as a broader mission.
+
 
 Currently, my research is centered around the extensive exploration of large language models (LLMs) 
 with a specific focus on their societal impact and influence on individuals.  
