@@ -11,30 +11,30 @@ redirect_from:
 <div style="text-align: justify"> 
 Hello, I'm a dedicated young researcher with a strong passion for cutting-edge AI technologies 
 that prioritize human-centric solutions. My academic background is rooted in Computer Science, 
-and I have a history of actively contributing to various R&D projects.
+and I have a history of actively contributing to various R&D projects. <br>
 
 Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en/aics/"> Institute of Artificial Intelligence 
 and Cyber Security (AICS) </a>
 at the <a href="https://www.aau.at/en/"> University of Klagenfurt </a>, Austria, where I also completed my Ph.D. in 2023. During my doctoral studies, 
 I authored 10 peer-reviewed publications, focusing on conversational recommender systems designed to assist users 
-in finding relevant items and making informed decisions using natural language interfaces.
+in finding relevant items and making informed decisions using natural language interfaces. <br>
 
 
 My primary research interests encompass Artificial Intelligence (AI), Natural Language Processing (NLP), 
 and User Experience (UX) research. I am committed to advancing these interdisciplinary fields 
-to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society.
+to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society. <br>
 
 
 At the core of my work is the belief that computer sciences should aim to enhance the lives of people. 
 Recognizing the intrinsic link between technology and humanity, I view human-centered computing not merely 
-as a field of study, but as a broader mission.
+as a field of study, but as a broader mission. <br>
 
 
 Currently, my research is centered around the extensive exploration of large language models (LLMs) 
 with a specific focus on their societal impact and influence on individuals.  
 Furthermore, I actively engage in collaborative research projects with 
 esteemed international scholars, involved into areas such as recommender systems, human-computer interactions, 
-and broader topics in artificial intelligence, generative AI, and LLMs.
+and broader topics in artificial intelligence, generative AI, and LLMs. <br>
 
 </div>
 ### News
