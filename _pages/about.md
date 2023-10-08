@@ -9,9 +9,10 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-Hello, I'm a dedicated young researcher with a strong passion for cutting-edge AI technologies 
-that prioritize human-centric solutions. My academic background is rooted in Computer Science, 
-and I have a history of actively contributing to various R&D projects. <br>
+Hello, I'm a dedicated young researcher/technologist with a strong passion for cutting-edge human-centric AI technologies 
+solutions. Over the years, I have designed and contirbuted to several IT projects spanning over mobile, desktop, and web applications
+My academic background is rooted in Computer Science, 
+and have a history of actively contributing to various R&D projects. <br>
 
 Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en/aics/"> Institute of Artificial Intelligence 
 and Cyber Security (AICS) </a>
@@ -20,21 +21,20 @@ I authored 10 peer-reviewed publications, focusing on conversational recommender
 in finding relevant items and making informed decisions using natural language interfaces. <br> <br>
 
 
-My primary research interests encompass Artificial Intelligence (AI), Natural Language Processing (NLP), 
+My primary research interests encompass Artificial Intelligence (AI), Data Science, Natural Language Processing (NLP), 
 and User Experience (UX) research. I am committed to advancing these interdisciplinary fields 
 to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society. <br>
 
 
 At the core of my work is the belief that computer sciences should aim to enhance the lives of people. 
-Recognizing the intrinsic link between technology and humanity, I view human-centered computing not merely 
-as a field of study, but as a broader mission. <br> <br>
+Recognizing the intrinsic relation between technology and humanity, I believe human-centered computing not merely 
+a field of study, but a <i>broader mission</i> . <br> <br>
 
 
-Currently, my research is centered around the extensive exploration of large language models (LLMs) 
+Currently, my work is centered around the extensive exploration of large language models (LLMs) 
 with a specific focus on their societal impact and influence on individuals.  
-Furthermore, I actively engage in collaborative research projects with 
-esteemed international scholars, involved into areas such as recommender systems, human-computer interactions, 
-and broader topics in artificial intelligence, generative AI, and LLMs. <br>
+Furthermore, actively engaging in collaborative research projects with 
+esteemed international scholars and practioners. <br>
 
 </div>
 ### News
