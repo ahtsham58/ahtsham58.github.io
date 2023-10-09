@@ -21,17 +21,17 @@ I authored 10 peer-reviewed publications, focusing on conversational recommender
 in finding relevant items and making informed decisions using natural language interfaces. <br> <br>
 
 
-My primary research interests encompass Artificial Intelligence (AI), Data Science, Natural Language Processing (NLP), 
-and User Experience (UX) research. I am committed to advancing these interdisciplinary fields 
+My primary research interests encompass <i>Artificial Intelligence (AI), Data Science, Natural Language Processing (NLP), 
+and User Experience (UX)</i> research. I am committed to advancing these interdisciplinary fields 
 to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society. <br>
 
 
 At the core of my work is the belief that computer sciences should aim to enhance the lives of people. 
 Recognizing the intrinsic relation between technology and humanity, I believe human-centered computing not merely 
-a field of study, but a <i>broader mission</i> . <br> <br>
+a field of study, but a <i>broader mission</i>. <br> <br>
 
 
-Currently, my work is centered around the extensive exploration of large language models (LLMs) 
+Currently, my work is centered around the extensive exploration of <i>large language models (LLMs)</i> 
 with a specific focus on their societal impact and influence on individuals.  
 Furthermore, actively engaging in collaborative research projects with 
 esteemed international scholars and practioners. <br>
