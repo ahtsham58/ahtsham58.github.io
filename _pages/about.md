@@ -9,43 +9,39 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-Hi, I am a Senior scientist at the institute of <a href="https://www.aau.at/en/aics/"> Artificial Intelligence and Cyber Security 
-(AICS)</a>, <a href="https://www.aau.at/en/">University of Klagenfurt</a>, Austria. An enthusiast technologist who 
-loves developing and producing human-centric AI technologies with a background in Computer Sciences.
-Previously, I enjoyed my involvement in industrial and R&D based projects for various 
-international organizations. The foundation of my work, encompassing AI research, teaching, and broader IT exposure, 
-is based on the principle that computer sciences creates technology for humans. 
-By acknowledging the intrinsic relationship between technology and humans, to me
-it is obvious that human-centered computing is not just a field of study, but an overarching objective.<br />
-</div>
+Hello, I'm a dedicated young researcher/technologist with a strong passion for cutting-edge human-centric AI technologies 
+solutions. Over the years, I have designed and contirbuted to several IT projects spanning over mobile, desktop, and web applications
+My academic background is rooted in Computer Science, 
+and have a history of actively contributing to various R&D projects. <br>
 
-Research Interests
-======
-<div style="text-align: justify"> 
-Overall, My main research interests lie in the cross-sectional areas of Artificial Intelligence (AI), 
-Natural Language Processing (NLP), Data mining, and User-experience (UX) research. 
-
-</div>
-
-Background and Life
-======
-<div style="text-align: justify"> 
-Born in Pakistan in a town located at the centere of Punjab province.
-In 2011, I moved to  Lahore and earned my Bachelor's degree 
-from the <a href="https://www.uet.edu.pk"> University of Engineering and Technology (UET) Lahore</a>, Pakistan.
-Then, to grasp the in-depth knowledge of computer science, in particular, data science, 
-I joined <a href="https://lums.edu.pk/">Lahore University of Management Sciences (LUMS)</a>, Pakistan for the Master's (MS) degree. In 2019, I moved to Austria. 
+Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en/aics/"> Institute of Artificial Intelligence 
+and Cyber Security (AICS) </a>
+at the <a href="https://www.aau.at/en/"> University of Klagenfurt </a>, Austria, where I also completed my Ph.D. in 2023. During my doctoral studies, 
+I authored 10 peer-reviewed publications, focusing on conversational recommender systems designed to assist users 
+in finding relevant items and making informed decisions using natural language interfaces. <br> <br>
 
 
-Usually, I spend my spare time in walking around natural beauty sights with a cup of coffee. 
-Moreover, I enjoy reading books and articles particularly on generative AI, human psyschology, 
-technology, life aspects, etc.
+My primary research interests encompass <i>Artificial Intelligence (AI), Data Science, Natural Language Processing (NLP), 
+and User Experience (UX)</i> research. I am committed to advancing these interdisciplinary fields 
+to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society. <br>
+
+
+At the core of my work is the belief that computer sciences should aim to enhance the lives of people. 
+Recognizing the intrinsic relation between technology and humanity, I believe human-centered computing not merely 
+a field of study, but a <i>broader mission</i>. <br> <br>
+
+
+Currently, my work is centered around the extensive exploration of <i>large language models (LLMs)</i> 
+with a specific focus on their societal impact and influence on individuals.  
+Furthermore, actively engaging in collaborative research projects with 
+esteemed international scholars and practioners. <br>
+
 </div>
 ### News
 
-- July 2023: I will be serving as an SV in ACM RecSys '23, Singapore
+- July 2023: I will be serving as an SV in ACM RecSys '23, Singapore.
 
-- April 2023: I will be participating in CHI '23, co-organizing GPS sessions, Hamberg, Germany
+- April 2023: I will be participating in CHI '23, co-organizing GPS sessions, Hamberg, Germany.
 
 - September 2022: I will be serving as an SV for ACM RecSys 2022, Seattle, USA.
 

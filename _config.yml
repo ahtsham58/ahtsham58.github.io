@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ahtsham Manzoor"
+title                    : "Ahtsham Manzoor, PhD"
 title_separator          : "-"
 name                     : &name "Ahtsham Manzoor"
 description              : &description "personal description"
@@ -184,10 +184,7 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
-    permalink: /:collection/:path/
-  development:
-    output: false
-    permalink: 
+    permalink: /:collection/:path/ 
 
 
 # Defaults
@@ -243,17 +240,8 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
+      author_profile: false
       share: true
-  # _development
-  - scope:
-      path: ""
-      type: #development
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _service
   - scope:
       path: ""
