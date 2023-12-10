@@ -10,14 +10,14 @@ redirect_from:
 
 <div style="text-align: justify"> 
 Hello, I'm a dedicated young researcher/technologist with a strong passion for cutting-edge human-centric AI and Digital technologies. 
-Over the years, I have designed and contirbuted to several IT projects spanning over mobile, desktop, and web applications
+Over the years, I have designed and contirbuted to several IT projects spanning over mobile, desktop, and web applications.
 My academic background is rooted in Computer Science, and have a history of actively contributing to conferences, meetups, and talks, as I belive learning never exausts the mind. <br>
 
 Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en/aics/"> Institute of Artificial Intelligence 
 and Cyber Security (AICS) </a>
 at the <a href="https://www.aau.at/en/"> University of Klagenfurt </a>, Austria, where I also completed my Ph.D. in 2023. During my doctoral studies, 
 I authored 10 peer-reviewed publications, focusing on conversational recommender systems designed to assist users 
-in finding relevant items and making informed decisions using natural language interfaces (chatbots). <br> <br>
+in finding relevant items and making informed decisions using natural language interfaces (e.g., chatbots). <br> <br>
 
 
 My primary research interests encompass <i>Artificial Intelligence (AI), Data Science, Natural Language Processing (NLP), 
