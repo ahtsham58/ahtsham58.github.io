@@ -35,8 +35,9 @@ with a specific focus on their societal impact and influence on individuals.  In
 Furthermore, I'm actively engaging in collaborative research projects with 
 esteemed international scholars and practioners. <br>
 
+![chart](/images/word.cloud1)
 
-![plot](word-cloud.png "A word cloud chart extracted from peer-reviewed publications.")
+![plot](word-cloud "A word cloud chart extracted from peer-reviewed publications.")
 
 </div>
 ### News
