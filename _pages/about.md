@@ -36,10 +36,13 @@ Furthermore, I'm actively engaging in collaborative research projects with
 esteemed international scholars and practioners. <br>
 
 
-<img src="./images/word.cloud1.png" alt="word cloud chart extracted from peer-reviewed publications.">
-A word cloud chart extracted from peer-reviewed publications.
 
 </div>
+
+<div style="text-align: center;">
+         <img src="./images/word.cloud1.png" alt="word cloud chart extracted from peer-reviewed publications.">
+</div>
+A word cloud chart extracted from peer-reviewed publications.
 ### News
 
 - September 2023: We are pleased to share that our two articals accepted for publication in workshops at RecSys 23, Singapore.
