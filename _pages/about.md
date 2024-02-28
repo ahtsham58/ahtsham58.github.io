@@ -33,16 +33,16 @@ a field of study, but a <i>broader mission</i>. <br> <br>
 Currently, my work is centered around the extensive exploration of <i>large language models (LLMs)</i> 
 with a specific focus on their societal impact and influence on individuals.  In addition, I'm involved in various activties like commencing generative AI use-cases, their solutions, and impact.
 Furthermore, I'm actively engaging in collaborative research projects with 
-esteemed international scholars and practioners. <br>
+esteemed international scholars and practioners. <br> <br>
 
 
 
 </div>
 
 <div style="text-align: center;">
-         <img src="./images/word.cloud1.png" alt="word cloud chart extracted from peer-reviewed publications.">
+         <img src="./images/cloud-1.png" alt="word cloud chart extracted from peer-reviewed publications.">
+		 <label> A word cloud chart extracted from peer-reviewed publications.</label>
 </div>
-A word cloud chart extracted from peer-reviewed publications.
 ### News
 
 - September 2023: We are pleased to share that our two articals accepted for publication in workshops at RecSys 23, Singapore.
