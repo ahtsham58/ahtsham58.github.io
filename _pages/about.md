@@ -31,7 +31,7 @@ a field of study, but a <i>broader mission</i>. <br> <br>
 
 
 Currently, my work is centered around the extensive exploration of <i>large language models (LLMs)</i> 
-with a specific focus on their societal impact and influence on individuals.  In addition, I'm involved in various activties like commencing generative AI use-cases, their solutions, and impact.
+with a specific focus on their <b> societal impact <b/> and <b> influence on individuals</b>.  In addition, I'm involved in various activties like commencing generative AI use-cases, their solutions, and impact.
 Furthermore, I'm actively engaging in collaborative research projects with 
 esteemed international scholars and practioners. <br> <br>
 
@@ -44,6 +44,7 @@ esteemed international scholars and practioners. <br> <br>
 		 <label> A word cloud chart extracted from peer-reviewed publications.</label>
 </div>
 ### News
+- March 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been accepted for publication in UMAP 24.
 
 - September 2023: We are pleased to share that our two articals accepted for publication in workshops at RecSys 23, Singapore.
 
