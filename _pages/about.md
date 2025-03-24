@@ -13,6 +13,12 @@ Hi, I'm a dedicated young researcher/technologist with a strong passion for cutt
 Over the years, I have designed and contirbuted to several projects in both the IT industry and R&D sectors.
 My academic background is rooted in Computer Science, and have a history of actively contributing to conferences, meetups, and talks, as I belive learning never exausts the mind. <br>
 
+In my recent role at <a href="https://graphwise.ai/"> Graphwise (previously, Semantic-web Company)</a>, 
+I learned integrating knowledge graphs with generative AI to enhance enterprise data intelligence, 
+enabling semantic search, and AI-driven decision-making. Specifically, I integrated symbolic AI and generative AI, while optimizing Retrieval-Augmented Generation (RAG) 
+archectures to develop scalable, enterprise-ready solutions that transform unstructured, semi-structured, and structured data into actionable knowledge. 
+
+
 Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en/aics/"> Institute of Artificial Intelligence 
 and Cyber Security (AICS) </a>
 at the <a href="https://www.aau.at/en/"> University of Klagenfurt </a>, Austria, where I also completed my Ph.D. in 2023. During my doctoral studies, 
