@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT as a Conversational Recommender System: A User-Centric Analysi"
+title: "ChatGPT as a Conversational Recommender System: A User-Centric Analysis"
 collection: publications
 date: 2024-07-01 
 venue: "In Proceedings of the The 32nd ACM Conference on User Modeling, Adaptation and Personalization. Monday 1 - Thursday 4 July, 2024. Cagliari, Sardinia, Italy"
