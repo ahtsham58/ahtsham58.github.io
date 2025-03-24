@@ -16,7 +16,7 @@ My academic background is rooted in Computer Science, and have a history of acti
 In my recent role at <a href="https://graphwise.ai/"> Graphwise (previously, Semantic-web Company)</a>, 
 I learned integrating knowledge graphs with generative AI to enhance enterprise data intelligence, 
 enabling semantic search, and AI-driven decision-making. Specifically, I integrated symbolic AI and generative AI, while optimizing Retrieval-Augmented Generation (RAG) 
-archectures to develop scalable, enterprise-ready solutions that transform unstructured, semi-structured, and structured data into actionable knowledge. 
+archectures to develop scalable, enterprise-ready solutions that transform unstructured, semi-structured, and structured data into actionable knowledge. <br>
 
 
 Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en/aics/"> Institute of Artificial Intelligence 
@@ -36,9 +36,9 @@ Recognizing the intrinsic relation between technology and humanity, I believe hu
 a field of study, but a <i>broader mission</i>. <br> <br>
 
 
-Currently, my work is centered around the extensive exploration of <i>large language models (LLMs)</i> 
-with a specific focus on their societal impact and influence on individuals.  In addition, I'm involved in various activties like commencing generative AI use-cases, their solutions, and impact.
-Furthermore, I'm actively engaging in collaborative research projects with 
+Currently, my work is centered around the extensive exploration of <i>Large Language Models (LLMs)</i> 
+with a focus on their societal impact and influence on individuals.  In addition, I'm involved in various activties like commencing generative AI use-cases, their solutions, and impact.
+To this end, I'm open to engage in collaborative research projects with 
 esteemed international scholars and practioners.
 
 
