@@ -26,6 +26,10 @@ I authored 10 peer-reviewed publications, focusing on conversational recommender
 in finding relevant items and making informed decisions using natural language interfaces (e.g., chatbots). <br> <br>
 
 
+<div style="text-align: center;">
+         <img src="./images/research-interests.png" alt="">
+</div>
+ <br>
 My primary research interests encompass <i>Artificial Intelligence (AI), Data Science, Natural Language Processing (NLP), 
 and User Experience (UX)</i> research. I am committed to advancing these interdisciplinary fields 
 to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society. <br>
@@ -41,7 +45,7 @@ with a focus on their societal impact and influence on individuals.  In addition
 To this end, I'm open to engage in collaborative research projects with 
 esteemed international scholars and practioners.
 
-
+research-interests
 
 </div>
 
