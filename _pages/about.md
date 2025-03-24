@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-Hello, I'm a dedicated young researcher/technologist with a strong passion for cutting-edge human-centric AI and Digital technologies. 
+Hi, I'm a dedicated young researcher/technologist with a strong passion for cutting-edge human-centric AI and Digital technologies. 
 Over the years, I have designed and contirbuted to several projects in both the IT industry and R&D sectors.
 My academic background is rooted in Computer Science, and have a history of actively contributing to conferences, meetups, and talks, as I belive learning never exausts the mind. <br>
 
@@ -44,6 +44,8 @@ esteemed international scholars and practioners.
 		 <label> A word cloud chart extracted from peer-reviewed publications.</label>
 </div>
 ### News
+- July 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been nominated for <b>Best Paper Award </b>.
+
 - March 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been accepted for publication in UMAP 24.
 
 - September 2023: We are pleased to share that our two articals accepted for publication in workshops at RecSys 23, Singapore.
