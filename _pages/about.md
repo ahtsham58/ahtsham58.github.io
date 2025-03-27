@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
+
+
 Hi, I'm a dedicated young researcher/technologist with a strong passion for cutting-edge human-centric AI and Digital technologies. 
 Over the years, I have designed and contirbuted to several projects in both the IT industry and R&D sectors.
 My academic background is rooted in Computer Science, and have a history of actively contributing to conferences, meetups, and talks, as I belive learning never exausts the mind. <br>
@@ -45,7 +47,6 @@ with a focus on their societal impact and influence on individuals.  In addition
 To this end, I'm open to engage in collaborative research projects with 
 esteemed international scholars and practioners.
 
-research-interests
 
 </div>
 
