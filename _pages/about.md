@@ -10,49 +10,46 @@ redirect_from:
 
 <div style="text-align: justify"> 
 
+Hi, I’m Ahtsham Manzoor — an Applied AI Scientist and lifelong technologist who's always been fascinated by how ideas can turn into digital systems making life easier, smooth and meaningful.
 
-Hi, I'm a dedicated young researcher/technologist with a strong passion for cutting-edge human-centric AI and Digital technologies. 
-Over the years, I have designed and contirbuted to several projects in both the IT industry and R&D sectors.
-My academic background is rooted in Computer Science, and have a history of actively contributing to conferences, meetups, and talks, as I belive learning never exausts the mind. <br>
-
-In my recent role at <a href="https://graphwise.ai/"> Graphwise (previously, Semantic-web Company)</a>, 
-I learned integrating knowledge graphs with generative AI to enhance enterprise data intelligence, 
-enabling semantic search, and AI-driven decision-making. Specifically, I integrated symbolic AI and generative AI, while optimizing Retrieval-Augmented Generation (RAG) 
-archectures to develop scalable, enterprise-ready solutions that transform unstructured, semi-structured, and structured data into actionable knowledge. <br>
+Well, I started my career as a software engineer, solving problems while enhancing huge codebases containing ten of thousands code lines and hunderds of SQL Tables. 
+That curiosity led me to pursue Masters' Program to dive deep into realm of data science and machine learning. 
+This objective further tunred into R&D interest, leading me to earning a PhD degree in Applied AI with 10+ peer-reviewed publications. 
 
 
-Previously, I served as a Senior Scientist at the <a href="https://www.aau.at/en/aics/"> Institute of Artificial Intelligence 
-and Cyber Security (AICS) </a>
-at the <a href="https://www.aau.at/en/"> University of Klagenfurt </a>, Austria, where I also completed my Ph.D. in 2023. During my doctoral studies, 
-I authored 10 peer-reviewed publications, focusing on conversational recommender systems designed to assist users 
-in finding relevant items and making informed decisions using natural language interfaces (e.g., chatbots). <br> <br>
+In my Doctoral studies, I investigated language generation and retrieval-based methods in terms of their impact on the quality and 
+usabaility of conversational recommender systems. This has been a great journey where I explored how people interact with intelligent conversational systems and technology can feel more natural, and human intutive.
+Along the way, I discovered what excites me most: building AI that doesn’t just work in theory, but actually creates value in the real world.
+
+Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises. 
+I’ve designed conversational systems, built large-scale data pipelines, and worked on AI solutions in areas like travel, leasing & finance, e-commerce, and enterprise platforms. 
+I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale.
+
+
 
 
 <div style="text-align: center;">
          <img src="./images/research-interests.png" alt="">
 </div>
  <br>
-My primary research interests encompass <i>Artificial Intelligence (AI), Data Science, Natural Language Processing (NLP), 
-and User Experience (UX)</i> research. I am committed to advancing these interdisciplinary fields 
-to create technology that is more intuitive, efficient, and tailored to the needs of individuals and society. <br>
+My primary research interests encompass <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
+and User Experience (UX)</i> research.
 
 
-At the core of my work is the belief that computer sciences should aim to enhance the lives of people. 
-Recognizing the intrinsic relation between technology and humanity, I believe human-centered computing not merely 
-a field of study, but a <i>broader mission</i>. <br> <br>
-
-
-Currently, my work is centered around the extensive exploration of <i>Large Language Models (LLMs)</i> 
-with a focus on their societal impact and influence on individuals.  In addition, I'm involved in various activties like commencing generative AI use-cases, their solutions, and impact.
-To this end, I'm open to engage in collaborative research projects with 
-esteemed international scholars and practioners.
+Outside of work, I love staying curious — writing, speaking, and collaborating to make AI less mysterious and more accessible. 
+For me, it’s about bridging the gap between research and real-world impact, and between technical innovation and human needs.
 
 
 </div>
 
+<div>
+        
+	A demo of my scientific work blended with NLP techniques for human inisight can be seen in the following chart.
+</div>
+
 <div style="text-align: center;">
          <img src="./images/cloud-1.png" alt="word cloud chart extracted from peer-reviewed publications.">
-		 <label> A word cloud chart extracted from peer-reviewed publications.</label>
+		 <label> A word cloud chart extracted from my peer-reviewed articles.</label>
 </div>
 ### News
 - July 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been nominated for <b>Best Paper Award </b>.
