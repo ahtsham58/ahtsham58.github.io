@@ -11,29 +11,34 @@ redirect_from:
 <div style="text-align: justify"> 
 
 Hi, I’m Ahtsham Manzoor — an Applied AI Scientist and lifelong technologist who's always been fascinated by how ideas can turn into digital systems making life easier, smooth and meaningful.
+ <br> <br>
+
 
 Well, I started my career as a software engineer, solving problems while enhancing huge codebases containing ten of thousands code lines and hunderds of SQL Tables. 
 That curiosity led me to pursue Masters' Program to dive deep into realm of data science and machine learning. 
 This objective further tunred into R&D interest, leading me to earning a PhD degree in Applied AI with 10+ peer-reviewed publications. 
 
+ <br>
 
 In my Doctoral studies, I investigated language generation and retrieval-based methods in terms of their impact on the quality and 
 usabaility of conversational recommender systems. This has been a great journey where I explored how people interact with intelligent conversational systems and technology can feel more natural, and human intutive.
 Along the way, I discovered what excites me most: building AI that doesn’t just work in theory, but actually creates value in the real world.
 
+
+ <br>
 Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises. 
 I’ve designed conversational systems, built large-scale data pipelines, and worked on AI solutions in areas like travel, leasing & finance, e-commerce, and enterprise platforms. 
 I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale.
 
-
-
+ <br> <br>
+My primary research interests lies at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
+and User Experience (UX)</i> research.
 
 <div style="text-align: center;">
          <img src="./images/research-interests.png" alt="">
 </div>
  <br>
-My primary research interests encompass <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
-and User Experience (UX)</i> research.
+<br>
 
 
 Outside of work, I love staying curious — writing, speaking, and collaborating to make AI less mysterious and more accessible. 
