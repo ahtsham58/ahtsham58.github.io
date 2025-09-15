@@ -10,7 +10,7 @@ redirect_from:
 
 <div style="text-align: justify"> 
 
-Hi, I’m Ahtsham Manzoor — an Applied AI Scientist and lifelong technologist who's always been fascinated by how ideas can turn into digital systems making life easier, smooth and meaningful.
+Hi, I’m Ahtsham Manzoor — an Applied AI Scientist and lifelong technologist who's always been fascinated by how ideas can turn into intelligent systems making life easier, smooth and meaningful.
  <br> <br>
 
 
@@ -50,8 +50,9 @@ Outside of work, I love staying curious about things such as sightseeing, travel
 
 </div>
 
+ <br>
+<br>
 
-</div>
 ### News
 - July 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been nominated for <b>Best Paper Award </b>.
 
