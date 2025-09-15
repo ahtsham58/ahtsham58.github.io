@@ -15,7 +15,8 @@ Hi, I’m Ahtsham Manzoor — an Applied AI Scientist and lifelong technologist 
 
 
 I started my career as a Software Engineer, solving problems while enhancing/creating huge codebases containing ten of thousands code lines and hunderds of SQL Tables. 
-That curiosity led me to pursue Masters' Program to dive deep into realm of data science and machine learning. 
+That curiosity led me to pursue Masters' Program in Computer Sciences to dive deep into the realm of data science and machine learning. Imagine implementing neural networks in matlab, that without libraries :p
+
 After my Masters' thesis work, the curisosity to advancing Data Science knowledge further tunred into R&D interest.
 
  <br>
@@ -31,12 +32,12 @@ but actually creates value in the real world.
 
  <br><br>
 Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises. 
-I’ve designed conversational systems, built large-scale data pipelines, and worked on AI solutions in areas like travel, leasing & finance, e-commerce, and enterprise digital platforms. 
+I’ve designed conversational systems, built large-scale data pipelines, and worked on tens of AI solutions in areas like travel, leasing & finance, e-commerce, and enterprise digital platforms. 
 I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale.
 
  <br> <br>
 My primary research interests lies at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
-and User Experience (UX)</i> research. In the below figure, I mentioned what excites me to get on.
+and Human-computer Interaction (assistive technologies, human factors, UI/UX)</i>  research. In the below figure, I mentioned what excites me to get on.
 
 <div style="text-align: center;">
          <img src="./images/research-interests.png" alt="">
