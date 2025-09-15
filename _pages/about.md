@@ -31,13 +31,16 @@ but actually creates value in the real world.
 
 
  <br><br>
-Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises. 
-I’ve designed conversational systems, built large-scale data pipelines, and worked on tens of AI solutions in areas like travel, leasing & finance, e-commerce, and enterprise digital platforms. 
-I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale.
+Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises in areas like travel, leasing & finance, e-commerce, and enterprise digital/data platforms. 
+I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale, while learing from others, upscalling expertise and creating positive impact.
 
  <br> <br>
 My primary research interests lies at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
 and Human-computer Interaction (assistive technologies, human factors, UI/UX)</i>  research. In the below figure, I mentioned what excites me to get on.
+
+
+<br>
+<br>
 
 <div style="text-align: center;">
          <img src="./images/research-interests.png" alt="">
@@ -55,7 +58,7 @@ Outside of work, I love staying curious about things such as sightseeing, travel
 <br>
 
 ### News
-- July 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been nominated for <b>Best Paper Award </b>.
+- July 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been nominated for <b>Best Short Paper Award </b>.
 
 - March 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been accepted for publication in UMAP 24.
 
