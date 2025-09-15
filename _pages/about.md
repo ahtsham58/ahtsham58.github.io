@@ -14,25 +14,29 @@ Hi, I’m Ahtsham Manzoor — an Applied AI Scientist and lifelong technologist 
  <br> <br>
 
 
-Well, I started my career as a software engineer, solving problems while enhancing huge codebases containing ten of thousands code lines and hunderds of SQL Tables. 
+I started my career as a Software Engineer, solving problems while enhancing/creating huge codebases containing ten of thousands code lines and hunderds of SQL Tables. 
 That curiosity led me to pursue Masters' Program to dive deep into realm of data science and machine learning. 
-This objective further tunred into R&D interest, leading me to earning a PhD degree in Applied AI with 10+ peer-reviewed publications. 
+After my Masters' thesis work, the curisosity to advancing Data Science knowledge further tunred into R&D interest.
 
  <br>
 
-In my Doctoral studies, I investigated language generation and retrieval-based methods in terms of their impact on the quality and 
-usabaility of conversational recommender systems. This has been a great journey where I explored how people interact with intelligent conversational systems and technology can feel more natural, and human intutive.
-Along the way, I discovered what excites me most: building AI that doesn’t just work in theory, but actually creates value in the real world.
+In 2019, I joined University of Klagenfurt, Austria, where I investigated language generation and retrieval-based methods in terms of their impact on the quality and 
+usabaility of conversational recommender systems. This journey led me to earning a PhD degree in the Applied AI (ML/NLP/UX) domain with 10+ peer-reviewed publications. 
+In essence, it turned out to be a great journey where I explored how people interact with intelligent conversational systems 
+and technology can feel more natural, predictable, and human intutive. Eventually, I discovered what excites me the most: building AI that doesn’t just work in theory, 
+but actually creates value in the real world.
 
 
- <br>
+
+
+ <br><br>
 Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises. 
-I’ve designed conversational systems, built large-scale data pipelines, and worked on AI solutions in areas like travel, leasing & finance, e-commerce, and enterprise platforms. 
+I’ve designed conversational systems, built large-scale data pipelines, and worked on AI solutions in areas like travel, leasing & finance, e-commerce, and enterprise digital platforms. 
 I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale.
 
  <br> <br>
 My primary research interests lies at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
-and User Experience (UX)</i> research.
+and User Experience (UX)</i> research. In the below figure, I mentioned what excites me to get on.
 
 <div style="text-align: center;">
          <img src="./images/research-interests.png" alt="">
@@ -41,20 +45,12 @@ and User Experience (UX)</i> research.
 <br>
 
 
-Outside of work, I love staying curious — writing, speaking, and collaborating to make AI less mysterious and more accessible. 
-For me, it’s about bridging the gap between research and real-world impact, and between technical innovation and human needs.
+Outside of work, I love staying curious about things such as sightseeing, travel, and multi-cusine food.
 
 
 </div>
 
-<div>
-        
-	A demo of my scientific work blended with NLP techniques for human inisight can be seen in the following chart.
-</div>
 
-<div style="text-align: center;">
-         <img src="./images/cloud-1.png" alt="word cloud chart extracted from peer-reviewed publications.">
-		 <label> A word cloud chart extracted from my peer-reviewed articles.</label>
 </div>
 ### News
 - July 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been nominated for <b>Best Paper Award </b>.
