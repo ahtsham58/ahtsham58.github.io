@@ -8,64 +8,52 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: justify"> 
+<div style="text-align: justify; line-height: 1.6; font-size: 16px;"> 
 
-Hi, I’m Ahtsham Manzoor — an Applied AI Scientist and lifelong technologist who's always been fascinated by how ideas can turn into intelligent systems making life easier, smooth and meaningful.
- <br> <br>
+Hi, I’m <b>Ahtsham Manzoor</b> — an Applied AI Scientist and lifelong technologist, fascinated by how ideas can evolve into intelligent systems that make life easier, smoother, and more meaningful.
+<br><br>
 
+From an early age, I was drawn to science. Choosing pre-engineering in high school felt like destiny. After a highly competitive examination process, I was admitted in 2011 to the BS Computer Science program at a prestigious public engineering institute — <a href="https://uet.edu.pk/" target="_blank">University of Engineering and Technology (UET), Lahore</a>. 
+<br><br>
 
-I started my career as a Software Engineer, solving problems while enhancing/creating huge codebases containing ten of thousands code lines and hunderds of SQL Tables. 
-That curiosity led me to pursue Masters' Program in Computer Sciences to dive deep into the realm of data science and machine learning. Imagine implementing neural networks in matlab, that without libraries :p
+During my studies, I gained hands-on experience and began my career as a Software Developer (Intern) in 2014. My journey grew from solving problems in large codebases — tens of thousands of lines of code and hundreds of SQL tables — to seeking deeper knowledge. 
+Curiosity led me to pursue a Master’s degree in Computer Science, focusing on data science and machine learning. 
+Imagine implementing neural networks and machine learning models in Matlab — without modern libraries! :p 
+<br><br>
 
-After my Masters' thesis work, the curisosity to advancing Data Science knowledge further tunred into R&D interest.
+After completing my Master’s thesis in 2017, my curiosity to advance Data Science transformed into an R&D passion.  
+<br><br>
 
- <br>
+In 2019, I joined the <a href="https://www.aau.at/en/" target="_blank">University of Klagenfurt</a>, Austria, as a Senior Scientist at the <a href="https://www.aau.at/en/aics/" target="_blank">Institute of Artificial Intelligence and Cybersecurity (AICS)</a>. Within the Information Systems research group, I investigated language generation and retrieval-based methods, focusing on their impact on the quality and usability of conversational recommender systems. This work led to my PhD in Applied AI (ML/NLP/UX), with <b>10+ peer-reviewed publications</b>.  
+In essence, it was a transformative journey, where I explored how people interact with conversational AI — and how technology can feel more natural, predictable, and human-intuitive. 
+<br><br>
 
-In 2019, I joined University of Klagenfurt, Austria, as a Senior Scientist at the Institute of Artificial Intelligence and Cyber security (AICS). During my stay at Information Systems research group, I investigated language generation and retrieval-based methods in terms of their impact on the quality and 
-usabaility of conversational recommender systems. This journey led me to earning a PhD degree in the Applied AI (ML/NLP/UX) domain with 10+ peer-reviewed publications. 
-In essence, it turned out to be a great journey where I explored how people interact with intelligent conversational systems 
-and technology can feel more natural, predictable, and human intutive.
+Over the past decade, I’ve been fortunate to work across research labs, startups, and global enterprises in domains such as travel, finance, e-commerce, and enterprise digital/data platforms.  
+I see myself as a <b>scientific liaison</b> between R&D, engineering, and design — eager to apply what I’ve refined over the years on a broader, practical scale, while learning from others, upscaling expertise, and creating impact. 
+<br><br>
 
-
-
- <br><br>
-Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises in areas like travel, leasing & finance, e-commerce, and enterprise digital/data platforms. 
-I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale, while learing from others, upscalling expertise and creating impact.
-
- <br> <br>
-My primary research interests lies at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
-and Human-computer Interaction (assistive technologies, human factors, UX)</i>  research. In the below figure, I mentioned what excites me to get on.
-
-
-<br>
-<br>
+My primary research interests lie at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
+and Human-Computer Interaction (assistive technologies, human factors, UX)</i>.  
+In the figure below, you can see what excites me the most:  
+<br><br>
 
 <div style="text-align: center;">
-         <img src="./images/research-interests.png" alt="">
+  <img src="./images/research-interests.png" alt="Research Interests" style="max-width: 80%; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);">
 </div>
- <br>
-<br>
+<br><br>
 
-
-Outside of work, I love staying curious about things such as sightseeing, travel, and multi-cusine food. Have something serious to talk about? Offer me a nice cofee!
-
-
+Outside of work, I enjoy sightseeing, traveling, and exploring multi-cuisine food.  
+Have something serious to discuss? Just offer me a nice coffee! ☕
 </div>
 
- <br>
-<br>
+<br><br>
 
-### News
-- July 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been nominated for <b>Best Short Paper Award </b>.
+---
 
-- March 2024: Our paper, titled "ChagtGPT as a Conversational Recommender System: A User-centric Analysis" has been accepted for publication in UMAP 24.
-
-- September 2023: We are pleased to share that our two articals accepted for publication in workshops at RecSys 23, Singapore.
-
-- July 2023: I will be serving as an SV in ACM RecSys '23, Singapore.
-
-- April 2023: I will be participating in CHI '23, co-organizing GPS sessions, Hamberg, Germany.
-
-- September 2022: I will be serving as an SV for ACM RecSys 2022, Seattle, USA.
-
-
+###  News
+- <b>July 2024</b>: Our paper, titled <i>"ChatGPT as a Conversational Recommender System: A User-centric Analysis"</i>, was nominated for the <b>Best Short Paper Award</b>.  
+- <b>March 2024</b>: The same paper was accepted for publication at <a href="https://www.um.org/umap2024/" target="_blank">UMAP 2024</a>.  
+- <b>September 2023</b>: Two of our articles were accepted for workshops at <a href="https://recsys.acm.org/recsys23/" target="_blank">RecSys 2023, Singapore</a>.  
+- <b>July 2023</b>: Served as a Student Volunteer (SV) at <a href="https://recsys.acm.org/recsys23/" target="_blank">ACM RecSys '23, Singapore</a>.  
+- <b>April 2023</b>: Co-organized GPS sessions at <a href="https://chi2023.acm.org/" target="_blank">CHI '23, Hamburg, Germany</a>.  
+- <b>September 2022</b>: Served as a Student Volunteer (SV) at <a href="https://recsys.acm.org/recsys22/" target="_blank">ACM RecSys 2022, Seattle, USA</a>.  
