@@ -27,7 +27,7 @@ After completing my Master’s thesis in 2017, my curiosity to advance Data Scie
 <br><br>
 In 2019, I joined the <a href="https://www.aau.at/en/" target="_blank">University of Klagenfurt</a>, Austria, 
 as a Senior Scientist at the <a href="https://www.aau.at/en/aics/" target="_blank">Institute of Artificial Intelligence and Cybersecurity (AICS)</a>. 
-Within the <a href="https://www.aau.at/en/isys/" target="_blank">Information Systems Research Group</a>, 
+Within the <a href="https://www.aau.at/en/aics/research-groups/infsys/" target="_blank">Information Systems Research Group</a>, 
 I investigated natural language generation (e.g., GPT, BERT, Transformers, RNNs, GNNs) and retrieval-based methods for the <i>conversational recommendation problem</i>, 
 with a particular focus on their effectiveness in terms of quality and usability from a <b>human-centric</b> standpoint. 
 <br>
