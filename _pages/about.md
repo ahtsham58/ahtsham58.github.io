@@ -21,22 +21,20 @@ After my Masters' thesis work, the curisosity to advancing Data Science knowledg
 
  <br>
 
-In 2019, I joined University of Klagenfurt, Austria, where I investigated language generation and retrieval-based methods in terms of their impact on the quality and 
+In 2019, I joined University of Klagenfurt, Austria, as a Senior Scientist at the Institute of Artificial Intelligence and Cyber security (AICS). During my stay at Information Systems research group, I investigated language generation and retrieval-based methods in terms of their impact on the quality and 
 usabaility of conversational recommender systems. This journey led me to earning a PhD degree in the Applied AI (ML/NLP/UX) domain with 10+ peer-reviewed publications. 
 In essence, it turned out to be a great journey where I explored how people interact with intelligent conversational systems 
-and technology can feel more natural, predictable, and human intutive. Eventually, I discovered what excites me the most: building AI that doesn’t just work in theory, 
-but actually creates value in the real world.
-
+and technology can feel more natural, predictable, and human intutive.
 
 
 
  <br><br>
 Over the past decade, I’ve been lucky to work across research labs, startups, and global enterprises in areas like travel, leasing & finance, e-commerce, and enterprise digital/data platforms. 
-I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale, while learing from others, upscalling expertise and creating positive impact.
+I see myself as a scientific liaison between R&D, engineering, and design — eager to apply what I’ve learned and refined over the years on a broader, practical scale, while learing from others, upscalling expertise and creating impact.
 
  <br> <br>
 My primary research interests lies at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
-and Human-computer Interaction (assistive technologies, human factors, UI/UX)</i>  research. In the below figure, I mentioned what excites me to get on.
+and Human-computer Interaction (assistive technologies, human factors, UX)</i>  research. In the below figure, I mentioned what excites me to get on.
 
 
 <br>
@@ -49,7 +47,7 @@ and Human-computer Interaction (assistive technologies, human factors, UI/UX)</i
 <br>
 
 
-Outside of work, I love staying curious about things such as sightseeing, travel, and multi-cusine food.
+Outside of work, I love staying curious about things such as sightseeing, travel, and multi-cusine food. Have something serious to talk about? Offer me a nice cofee!
 
 
 </div>
