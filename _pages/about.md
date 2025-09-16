@@ -28,17 +28,21 @@ In 2019, I joined the <a href="https://www.aau.at/en/" target="_blank">Universit
 In essence, it was a transformative journey, where I explored how people interact with conversational AI — and how technology can feel more natural, predictable, and human-intuitive. 
 <br><br>
 
-Over the past decade, I’ve been fortunate to work across research labs, startups, and global enterprises in domains such as travel, finance, e-commerce, and enterprise digital/data platforms.  
+Over the past decade, I’ve been fortunate to work across research labs, startups, and global enterprises in domains such as travel & insurance, media, auto finance, e-commerce, 
+and enterprise digital/data platforms.  
 I see myself as a <b>scientific liaison</b> between R&D, engineering, and design — eager to apply what I’ve refined over the years on a broader, practical scale, while learning from others, upscaling expertise, and creating impact. 
 <br><br>
 
 My primary research interests lie at the intersection of <i>Artificial Intelligence (AI), Natural Language Processing (NLP), 
 and Human-Computer Interaction (assistive technologies, human factors, UX)</i>.  
-In the figure below, you can see what excites me the most:  
+  
 <br><br>
 
+
 <div style="text-align: center;">
+Topics that excites me the most:
   <img src="./images/research-interests.png" alt="Research Interests" style="max-width: 80%; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);">
+  
 </div>
 <br><br>
 
