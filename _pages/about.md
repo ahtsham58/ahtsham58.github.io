@@ -19,7 +19,7 @@ From an early age, I was drawn to science. Choosing pre-engineering in high scho
 During my studies, I gained hands-on experience and began my career as a Software Developer (Intern) in 2014. 
 My journey grew from solving problems in large codebases; exploring/debugging/coding tens of thousands of lines of code and hundreds of SQL tables.  
 However, the curiosity to learn more led me to pursue a Master’s degree in Computer Science at <a href="https://lums.edu.pk/" target="_blank">Lahore University of Management Sciences (LUMS)</a>, focusing on data science and machine learning.  
-Imagine implementing neural networks and machine learning models in Matlab — without modern libraries! :p  
+Imagine implementing neural networks and machine learning models in Matlab — and that without modern libraries! :p  
 <br><br>
 
 
