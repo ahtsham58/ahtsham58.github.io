@@ -13,7 +13,8 @@ redirect_from:
 Hi, I’m <b>Ahtsham Manzoor</b> — an Applied AI Scientist and lifelong technologist, fascinated by how ideas can evolve into intelligent systems that make life easier, smoother, and more meaningful.
 <br><br>
 
-From an early age, I was drawn to science. Choosing pre-engineering in high school felt like destiny. After a highly competitive examination process, I was admitted in 2011 to the BS Computer Science program at a prestigious public engineering institute — <a href="https://uet.edu.pk/" target="_blank">University of Engineering and Technology (UET), Lahore</a>. 
+From an early age, I was drawn to sciences. Choosing pre-engineering in high school felt like destiny. 
+After a highly competitive examination process; in 2011 I was admitted to the BS Computer Science program at a prestigious public engineering institute — <a href="https://uet.edu.pk/" target="_blank">University of Engineering and Technology (UET), Lahore</a>. 
 <br><br>
 
 During my studies, I gained hands-on experience and began my career as a Software Developer (Intern) in 2014. 
@@ -33,8 +34,8 @@ with a particular focus on their effectiveness in terms of quality and usability
 <br>
 
 In 2023, this work led to my PhD project conclusion in Applied AI (ML/NLP/UX), with <b>10+ peer-reviewed publications</b>.  
-In essence, it was a transformative journey, where in addition to the persuit of becoming an <i>independent researcher</i>, 
-I explored how humans interact with multi-turn conversational agents like <i>ChatGPT</i> — and how technology can feel more natural, predictable, and human-intuitive. 
+In essence, it was a transformative journey, where in addition to the persuit of becoming an <i>independent researcher</i>, and esteemed teaching experience, 
+I explored how humans interact with multi-turn conversational agents for example, <i>today's ChatGPT</i>; and how technology can feel more natural, predictable, and human-intuitive. 
 <br><br>
 
 Over the past decade, I’ve been fortunate to work across research labs, startups, and global enterprises in domains such as travel & insurance, media, auto finance, e-commerce, 
@@ -55,8 +56,8 @@ Topics that excites me the most:
 </div>
 <br><br>
 
-Outside of work, I enjoy sightseeing, traveling, and exploring multi-cuisine food.  
-Have something serious to discuss? Just offer me a nice coffee! ☕
+Outside of work, I enjoy sightseeing, traveling, and exploring multi-cuisine food, in addition to trying out the best coffee in the town☕.
+Have something serious to discuss? do not hestitate to reach out.
 </div>
 
 <br><br>
