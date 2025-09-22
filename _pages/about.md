@@ -20,7 +20,7 @@ After a highly competitive examination process; in 2011 I was admitted to the BS
 During my studies, I gained hands-on experience and began my career as a Software Developer (Intern) in 2014. 
 My journey grew from solving problems in large codebases; exploring/debugging/coding tens of thousands of lines of code and hundreds of SQL tables.  
 However, the curiosity to learn more led me to pursue a Master’s degree in Computer Science at <a href="https://lums.edu.pk/" target="_blank">Lahore University of Management Sciences (LUMS)</a>, focusing on data science and machine learning.  
-Imagine implementing neural networks and machine learning models in Matlab — and that without modern libraries! :p  
+Imagine implementing neural networks and machine learning models without modern libraries! :p  
 <br><br>
 
 
@@ -34,7 +34,7 @@ with a particular focus on their effectiveness in terms of quality and usability
 <br>
 
 In 2023, this work led to my PhD project conclusion in Applied AI (ML/NLP/UX), with <b>10+ peer-reviewed publications</b>.  
-In essence, it was a transformative journey, where in addition to the persuit of becoming an <i>independent researcher</i>, and esteemed teaching experience, 
+In essence, it was a transformative journey, where in addition to the persuit of becoming an <i>independent researcher</i>, and experiencing teaching at university, 
 I explored how humans interact with multi-turn conversational agents for example, <i>today's ChatGPT</i>; and how technology can feel more natural, predictable, and human-intuitive. 
 <br><br>
 
@@ -68,6 +68,5 @@ Have something serious to discuss? do not hestitate to reach out.
 - <b>July 2024</b>: Our paper, titled <i>"ChatGPT as a Conversational Recommender System: A User-centric Analysis"</i>, was nominated for the <b>Best Short Paper Award</b>.  
 - <b>March 2024</b>: Our paper <i>"ChatGPT as a Conversational Recommender System: A User-centric Analysis"</i> was accepted for publication at <a href="https://www.um.org/umap2024/" target="_blank">UMAP 2024</a>.  
 - <b>September 2023</b>: Two of our articles were accepted for workshops at <a href="https://recsys.acm.org/recsys23/" target="_blank">RecSys 2023, Singapore</a>.  
-- <b>July 2023</b>: Served as a Student Volunteer (SV) at <a href="https://recsys.acm.org/recsys23/" target="_blank">ACM RecSys '23, Singapore</a>.  
 - <b>April 2023</b>: Co-organized GPS sessions at <a href="https://chi2023.acm.org/" target="_blank">CHI '23, Hamburg, Germany</a>.  
 - <b>September 2022</b>: Served as a Student Volunteer (SV) at <a href="https://recsys.acm.org/recsys22/" target="_blank">ACM RecSys 2022, Seattle, USA</a>.  
