@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+#  Projects — single source of truth for the Projects section.
+#
+#  Add a project by copying a block. Fields:
+#    title        : project name (required)
+#    overview     : 1–3 sentence summary
+#    publications : list of related papers (optional; omit or leave empty)
+#    link         : project/repo/demo URL (optional; button hidden if empty)
+#
+#  These starter entries are examples drawn from your research — edit freely.
+# ---------------------------------------------------------------------------
+
+- title: "Conversational Recommender Systems (CRS)"
+  overview: "Investigated natural-language-generation and retrieval-based methods for multi-turn conversational recommendation, with a human-centric focus on the quality and usability of system responses."
+  publications:
+    - "Generation-based vs. Retrieval-based Conversational Recommendation: A User-Centric Comparison (RecSys '21)"
+    - "End-to-End Learning for Conversational Recommendation: A Long Way to Go? (IntRS @ RecSys '20)"
+  link: "https://github.com/ahtsham58"
+
+- title: "ChatGPT as a Conversational Recommender System"
+  overview: "A user-centric analysis evaluating how effectively ChatGPT performs as a conversational recommender, examining recommendation quality and user perceptions."
+  publications:
+    - "ChatGPT as a Conversational Recommender System: A User-centric Analysis (UMAP 2024)"
+  link: ""
+
+- title: "INFACT — Online Human Evaluation Framework"
+  overview: "An online framework for reproducible human evaluation of conversational recommendation systems, enabling controlled multi-turn user studies."
+  publications:
+    - "INFACT: An Online Human Evaluation Framework for Conversational Recommendation (KaRS @ RecSys '22)"
+  link: ""

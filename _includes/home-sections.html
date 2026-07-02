@@ -1,0 +1,95 @@
+{% include base_path %}
+
+{% comment %}
+  Single-page sections rendered on the home page, below the bio.
+  Each <section>/<h3> has an id that the main-nav tabs scroll to.
+  Publications & Teaching reuse the archive-single include; Service and Talks
+  are rendered inline (one line per item) below.
+{% endcomment %}
+
+<section id="publications" class="home-section">
+  <h2 class="home-section__title">Publications</h2>
+  {% if site.author.googlescholar %}
+    <p class="home-section__note">
+      You can also find my articles on
+      <a href="{{ site.author.googlescholar }}" target="_blank">my Google Scholar profile</a>.
+    </p>
+  {% endif %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+</section>
+
+<section id="projects" class="home-section">
+  <h2 class="home-section__title">Projects</h2>
+  {% include projects.html %}
+</section>
+
+<section id="teaching" class="home-section">
+  <h2 class="home-section__title">Teaching</h2>
+  {% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+</section>
+
+<section id="service" class="home-section">
+  <h2 class="home-section__title">Services</h2>
+
+  {% comment %} Newest first: filenames start with the year, so sort by path. {% endcomment %}
+  {% assign services = site.service | sort: 'path' | reverse %}
+
+  <h3 class="home-subhead">Invited reviewer</h3>
+  <ul class="inline-list">
+    {% for post in services %}
+      {% if post.content contains 'Reviewer for' %}
+        {% if post.years %}{% assign year = post.years %}{% else %}{% assign year = post.path | split: '/' | last | slice: 0, 4 %}{% endif %}
+        {% assign venue = post.content | strip_html | strip | remove_first: 'Reviewer for the ' | remove_first: 'Reviewer for ' %}
+        <li>{{ venue }}, {{ year }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h3 class="home-subhead">Program Committee Member</h3>
+  <ul class="inline-list">
+    {% for post in services %}
+      {% if post.content contains 'Program committee' %}
+        {% assign year = post.path | split: '/' | last | slice: 0, 4 %}
+        <li>{{ post.content | strip_html | strip }} <span class="inline-year">({{ year }})</span></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h3 class="home-subhead">Conference Organization</h3>
+  <ul class="inline-list">
+    {% for post in services %}
+      {% unless post.content contains 'Reviewer for' or post.content contains 'Program committee' %}
+        {% assign year = post.path | split: '/' | last | slice: 0, 4 %}
+        <li>{{ post.content | strip_html | strip }} <span class="inline-year">({{ year }})</span></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+
+  <h3 class="home-subhead">Mentoring &amp; Student Collaboration</h3>
+  <ul class="inline-list">
+    <li>2 students &mdash; University of Klagenfurt <span class="inline-year">(6 months)</span></li>
+    <li>2 students &mdash; University of Klagenfurt <span class="inline-year">(1 month)</span></li>
+    <li>2 students / MSc thesis &mdash; Lahore University of Management Sciences (LUMS) <span class="inline-year">(1 year)</span></li>
+    <li>1 student / MSc thesis &mdash; University of Applied Sciences Bonn, Germany <span class="inline-year">(1 year)</span></li>
+    <li>1 collaboration with doctoral thesis student &mdash; Mainz University of Applied Sciences, Germany</li>
+  </ul>
+
+  <h3 id="awards" class="home-subhead">Professional Recognition</h3>
+  {% include awards.html %}
+
+  <h3 id="talks" class="home-subhead">Talks</h3>
+  <ul class="inline-list">
+    {% assign talklist = site.talks | sort: 'date' | reverse %}
+    {% for post in talklist %}
+      <li>
+        <span class="inline-title">{{ post.title }}</span> —
+        {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}
+        <span class="inline-year">({{ post.date | date: '%Y' }})</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

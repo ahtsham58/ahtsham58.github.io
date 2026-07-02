@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+#  Awards & honours — single source of truth for the Awards section.
+#
+#  Fields:
+#    year : numeric sort key (use the start year for multi-year awards)
+#    date : label shown to the reader (e.g. "2024" or "2011–2015")
+#    text : the award description
+#
+#  Items are re-sorted by `year` (descending) at render time, so order here
+#  does not matter — just keep `year` accurate when you add an entry.
+# ---------------------------------------------------------------------------
+
+- year: 2024
+  date: "2024"
+  text: "Best Paper nominee mention at UMAP '24"
+
+- year: 2019
+  date: "2019"
+  text: "Best Researcher Award by HEC Pakistan for delivering an open-source software for visually impaired people"
+
+- year: 2015
+  date: "2015–2017"
+  text: "Selected for the LUMS Financial Support Program for MSc studies"
+
+- year: 2015
+  date: "2015"
+  text: "NETSOL Soldier Award for showing the best discipline in trainings"
+
+- year: 2012
+  date: "2012"
+  text: "Selected as a top student for the Youth Development Internship (YDC) program by the Chief Minister's Office, Punjab, Pakistan"
+
+- year: 2011
+  date: "2011–2015"
+  text: "PEEF Scholarship for BSc studies, awarded for being a top performer in high-school studies"

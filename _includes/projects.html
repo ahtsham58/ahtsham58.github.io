@@ -1,0 +1,32 @@
+{% comment %} Elegant project cards, rendered from _data/projects.yml {% endcomment %}
+{% if site.data.projects and site.data.projects.size > 0 %}
+<div class="project-grid">
+  {% for project in site.data.projects %}
+    <article class="project-card">
+      <h3 class="project-card__title">{{ project.title }}</h3>
+
+      {% if project.overview %}
+        <p class="project-card__overview">
+          <span class="project-card__label">Overview</span>
+          {{ project.overview }}
+        </p>
+      {% endif %}
+
+      {% if project.publications and project.publications.size > 0 %}
+        <div class="project-card__pubs">
+          <span class="project-card__label">Publications</span>
+          <ul>
+            {% for pub in project.publications %}<li>{{ pub }}</li>{% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      {% if project.link and project.link != "" %}
+        <a class="project-card__link" href="{{ project.link }}" target="_blank" rel="noopener">
+          Project Link <span aria-hidden="true">&rarr;</span>
+        </a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+{% endif %}

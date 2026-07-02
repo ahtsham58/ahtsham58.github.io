@@ -1,0 +1,745 @@
+/* =========================================================================
+   modern.css — bold redesign layer on top of Minimal Mistakes / academicpages
+   Loaded AFTER the theme's main.css (see _includes/head/custom.html) so these
+   rules win. Everything is driven by CSS variables => light/dark is one switch.
+   ========================================================================= */
+
+/* ---------- Design tokens -------------------------------------------------*/
+:root {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-serif: "Lora", Georgia, "Times New Roman", serif;
+
+  /* Academic-modern palette: a single scholarly blue used consistently for
+     accents, links, headings-underlines and buttons (no competing hues). */
+  --bg:            #f4f6fa;
+  --surface:       #ffffff;
+  --surface-2:     #eef2f8;
+  --text:          #24313f;
+  --text-muted:    #5c6b7a;
+  --heading:       #15263d;   /* deep navy ink for headings */
+  --border:        #e2e7f0;
+  --link:          #1f4e89;
+  --accent:        #1f4e89;   /* primary academic blue  */
+  --accent-2:      #3f74c0;   /* lighter blue for gradients */
+  --accent-soft:   rgba(31, 78, 137, 0.10);
+  --on-accent:     #ffffff;
+
+  /* Publication tag colours — cool, cohesive academic tones (PDF = --accent) */
+  --tag-software:  #0e7a70;   /* teal    (Software / Code)          */
+  --tag-data:      #4a54ac;   /* indigo  (Data / Evaluation data)   */
+  --tag-dataset:   #17708c;   /* steel cyan (Dataset)               */
+  --shadow-sm:     0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow:        0 6px 24px rgba(15, 23, 42, 0.08);
+  --shadow-lg:     0 18px 40px rgba(15, 23, 42, 0.14);
+  --radius:        16px;
+  --radius-sm:     10px;
+
+  /* Layout: one shared max-width + one shared side gutter so the nav bar and
+     the content area line up exactly and keep equal margins on both sides.
+     The gutter scales with the viewport (responsive on mobile/tablet/PC). */
+  --content-max:   1680px;
+  --gutter:        clamp(1rem, 5vw, 4rem);
+  --nav-h:         4.5rem;
+
+  /* ---- Percentage-based layout (per request) --------------------------
+     10% margin on each side; the remaining 80% content row is split across
+     the three columns in a 5 : 75 : 10 ratio (left sidebar : main : news).
+     Change any of these and the whole layout (and the nav) follows. */
+  --page-margin:   10%;    /* equal left & right margin                  */
+  --col-left:      17fr;   /* left sidebar (author profile)              */
+  --col-main:      68fr;   /* main content                               */
+  --col-right:     15fr;   /* right sidebar (news)                       */
+  --col-gap:       2rem;   /* space between the columns                  */
+  --reading-width: 48rem;  /* max line length for body text (centered)   */
+}
+
+/* Native anchor jumps (and page loads with a #hash) clear the sticky nav. */
+html { scroll-padding-top: calc(var(--nav-h) + 1rem); }
+
+[data-theme="dark"] {
+  --bg:            #0b1220;
+  --surface:       #141d2f;
+  --surface-2:     #1c2942;
+  --text:          #dbe4f0;
+  --text-muted:    #93a3b8;
+  --heading:       #eef3fb;
+  --border:        #26344b;
+  --link:          #8fb4e8;
+  --accent:        #6f9be0;   /* softened academic blue for dark bg */
+  --accent-2:      #9cc0ef;
+  --accent-soft:   rgba(111, 155, 224, 0.18);
+  --on-accent:     #0b1220;
+
+  /* lighter tag tones for dark backgrounds */
+  --tag-software:  #57c7ba;
+  --tag-data:      #9aa2ea;
+  --tag-dataset:   #62b8d6;
+  --shadow-sm:     0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow:        0 6px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg:     0 18px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* ---------- Base ----------------------------------------------------------*/
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+  font-family: var(--font-sans) !important;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title, .archive__item-title, .author__name {
+  color: var(--heading) !important;
+  font-family: var(--font-serif) !important;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+/* Small UI labels stay in the sans face for a crisp, modern contrast. */
+.news-card__title,
+.author__name,
+.page__meta,
+.page__date { font-family: var(--font-sans) !important; }
+.author__name { font-weight: 700; }
+
+a { color: var(--link); }
+a:hover { color: var(--accent-2); }
+
+p, li { color: var(--text); }
+
+hr { border-color: var(--border); }
+
+/* Subtle fade-in so page loads feel smoother */
+#main { animation: modern-fade 0.4s ease both; }
+@keyframes modern-fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* ---------- Masthead / navigation ----------------------------------------*/
+.masthead {
+  background: color-mix(in srgb, var(--surface) 82%, transparent) !important;
+  -webkit-backdrop-filter: saturate(160%) blur(12px);
+  backdrop-filter: saturate(160%) blur(12px);
+  border-bottom: 1px solid var(--border) !important;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.masthead__inner-wrap {
+  position: relative;
+  max-width: none;
+  margin: 0;
+  /* Same 10% edges as #main so the nav lines up with the content exactly. */
+  padding-left: var(--page-margin);
+  padding-right: var(--page-margin);
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.greedy-nav { background: transparent !important; }
+.greedy-nav a { color: var(--text) !important; font-weight: 500; }
+.greedy-nav a:hover { color: var(--accent) !important; }
+
+/* brand / site title */
+.greedy-nav .masthead__menu-item--lg a,
+.masthead__menu-item--lg a {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+}
+
+/* nav links get an animated underline */
+.greedy-nav .visible-links a { position: relative; padding-bottom: 2px; }
+.greedy-nav .visible-links a::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 100%; height: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.22s ease;
+}
+.greedy-nav .visible-links a:hover::after { transform: scaleX(1); }
+.greedy-nav .visible-links a:before { background: transparent !important; }
+
+.greedy-nav .hidden-links { background: var(--surface); box-shadow: var(--shadow); border: 1px solid var(--border); }
+.greedy-nav .hidden-links a { color: var(--text) !important; }
+.greedy-nav button { color: var(--text); }
+.greedy-nav .navicon,
+.greedy-nav .navicon:before,
+.greedy-nav .navicon:after { background: var(--text); }
+
+/* ---------- Dark-mode toggle ---------------------------------------------*/
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1.25rem;
+  transform: translateY(-50%);
+  z-index: 110;
+  width: 40px; height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.05rem;
+  line-height: 1;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.theme-toggle:hover { transform: translateY(-50%) scale(1.08); box-shadow: var(--shadow); }
+.theme-toggle:active { transform: translateY(-50%) scale(0.94); }
+
+/* ---------- 3-column layout: profile | content | news --------------------*/
+#main {
+  max-width: none;
+  /* 10% equal margins => an 80%-wide content row, centered. */
+  margin-left: var(--page-margin);
+  margin-right: var(--page-margin);
+  display: grid;
+  grid-template-columns: var(--col-left) var(--col-main) var(--col-right);
+  gap: var(--col-gap);
+  align-items: start;
+  padding: 2.4em 0;
+}
+#main > .sidebar,
+#main > .archive,
+#main > .page,
+#main > .news-sidebar,
+#main > .page__related {
+  float: none !important;
+  clear: none !important;
+  margin: 0 !important;
+  width: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  opacity: 1 !important;
+}
+#main > .sidebar      { grid-column: 1; min-width: 0; }
+#main > .archive,
+#main > .page         { grid-column: 2; min-width: 0; }
+#main > .news-sidebar { grid-column: 3; min-width: 0; }
+#main > .page__related{ grid-column: 1 / -1; }
+
+/* ---------- Card treatment for content + profile + news ------------------*/
+.page, .archive, .news-card, .author__content-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+/* Vertical padding on the main cards; horizontal insets are handled below. */
+.page, .archive { padding-top: 2.25rem; padding-bottom: 2.25rem; }
+
+/* Center body text to a readable line length with equal left & right margins.
+   We use horizontal PADDING (not max-width + auto margins) on purpose: the
+   Minimal Mistakes theme floats .page__inner-wrap with `float:left;width:100%`
+   at a higher specificity, which cancels auto-margin centering. Padding can't
+   be defeated by the float. With box-sizing:border-box the card stays full
+   width while the text is inset symmetrically to --reading-width. */
+.page .page__inner-wrap,
+.archive {
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  /* Half the previous side margin (was /2 with a 1.5rem floor) => wider text. */
+  padding-left:  max(0.75rem, calc((100% - var(--reading-width)) / 4)) !important;
+  padding-right: max(0.75rem, calc((100% - var(--reading-width)) / 4)) !important;
+}
+.page__content { color: var(--text); font-size: 1rem; line-height: 1.7; }
+.page__content a { text-decoration: underline; text-underline-offset: 2px; }
+.page__title {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent-soft);
+}
+
+/* ---------- Single-page sections (Publications / Teaching / ...) ----------*/
+.home-section {
+  scroll-margin-top: calc(var(--nav-h) + 1rem); /* land below the sticky nav */
+  margin-top: 2.75rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--border);
+}
+.home-section:first-of-type {
+  margin-top: 2.25rem;
+}
+.home-section__title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.7rem;
+  margin: 0 0 1.1rem;
+  /* Elegant gradient-filled heading (falls back to --heading colour). */
+  background-image: linear-gradient(95deg, var(--accent), var(--accent-2) 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-section__title::before {
+  content: "";
+  width: 6px;
+  height: 1.4rem;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+}
+.home-section__note { color: var(--text-muted); margin-bottom: 1.25rem; }
+
+.home-section .archive__item {
+  padding: 0.85rem 0;
+  border-bottom: 1px dashed var(--border);
+}
+.home-section .list__item:last-child .archive__item { border-bottom: 0; }
+.home-section .archive__item-title { font-size: 1.12rem; margin: 0 0 0.35rem; }
+.home-section .archive__item-excerpt { color: var(--text-muted); }
+
+/* Publication resource links: [PDF] [Code] [Evaluation data] [Dataset] */
+.pub-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.4rem 0 0; }
+.pub-link {
+  --c: var(--accent);   /* PDF default; overridden per type below */
+  display: inline-block;
+  padding: 0.12rem 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--c) !important;
+  background: color-mix(in srgb, var(--c) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--c) 24%, transparent);
+  border-radius: 999px;
+  text-decoration: none !important;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.pub-link:hover {
+  color: #fff !important;
+  background: var(--c);
+  border-color: var(--c);
+}
+/* Type-specific colours (cool academic palette) */
+.pub-link--software,
+.pub-link--code     { --c: var(--tag-software); }
+.pub-link--data,
+.pub-link--evaldata { --c: var(--tag-data); }
+.pub-link--dataset  { --c: var(--tag-dataset); }
+
+/* Sub-sections (Invited reviewer / Committees / Talks) + inline one-line lists */
+.home-subhead {
+  scroll-margin-top: calc(var(--nav-h) + 1rem);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 1.75rem 0 0.6rem;
+}
+.inline-list {
+  list-style: none;
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+.inline-list li {
+  position: relative;
+  padding: 0.35rem 0 0.35rem 1.15rem;
+  border-bottom: 1px dashed var(--border);
+  line-height: 1.55;
+}
+.inline-list li:last-child { border-bottom: 0; }
+.inline-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.72rem;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent-2);
+}
+.reviewer-note { margin: 0.9rem 0 0.4rem; font-size: 0.95rem; color: var(--text); }
+.reviewer-note strong { color: var(--accent); }
+
+.inline-list .inline-title { font-weight: 600; color: var(--heading); }
+.inline-list .inline-year  { color: var(--text-muted); font-size: 0.9em; white-space: nowrap; }
+
+/* ---------- Awards list ---------------------------------------------------*/
+.award-list { list-style: none; margin: 1rem 0 0; padding: 0; }
+.award-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed var(--border);
+}
+.award-item:last-child { border-bottom: 0; }
+.award-year {
+  flex: 0 0 auto;
+  min-width: 82px;
+  margin-top: 0.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.22rem 0.6rem;
+  text-align: center;
+  white-space: nowrap;
+}
+.award-text { color: var(--text); line-height: 1.55; }
+.award-icon { color: var(--accent-2); margin-right: 0.35rem; }
+
+@media (max-width: 480px) {
+  .award-item { flex-direction: column; gap: 0.3rem; }
+  .award-year { min-width: 0; align-self: flex-start; }
+}
+
+/* ---------- Project cards -------------------------------------------------*/
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.project-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.6rem 1.6rem 1.9rem;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+/* accent spine on the left edge */
+.project-card::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 5px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+}
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent-2);
+}
+.project-card__title {
+  margin: 0 0 0.85rem;
+  font-size: 1.22rem;
+  line-height: 1.3;
+}
+.project-card__label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+.project-card__overview {
+  margin: 0 0 1rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+.project-card__pubs { margin: 0 0 1.1rem; }
+.project-card__pubs ul { margin: 0; padding-left: 1.15rem; }
+.project-card__pubs li {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin-bottom: 0.3rem;
+}
+.project-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--accent) !important;
+  text-decoration: none !important;
+}
+.project-card__link:hover { gap: 0.6rem; color: var(--accent-2) !important; }
+
+/* ---------- Left sidebar / author profile (elegant card) -----------------*/
+.sidebar { color: var(--text); font-size: 0.9rem; }
+
+.author-card {
+  position: relative;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.1rem 1.3rem;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+/* soft gradient wash behind the avatar */
+.author-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 74px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  opacity: 0.14;
+}
+
+.author-card .author__avatar {
+  position: relative;
+  z-index: 1;
+  margin: 0.3rem auto 0.85rem;
+  width: 100%;
+  max-width: 150px;
+}
+.author-card .author__avatar img {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--surface);
+  box-shadow: 0 0 0 3px var(--accent), 0 10px 22px rgba(15, 23, 42, 0.18);
+}
+
+.author-card .author__content { color: var(--text); }
+.author-card .author__name {
+  font-size: 1.18rem;
+  margin: 0 0 0.15rem;
+  line-height: 1.25;
+}
+
+/* Role — the professional title, set apart from the tag chips */
+.author__role {
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0.15rem 0 0.7rem;
+}
+.author__role::after {
+  content: "";
+  display: block;
+  width: 34px; height: 2px;
+  margin: 0.6rem auto 0;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+/* Tags — individual chips */
+.author__tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: center;
+}
+.author__tag {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid transparent;
+  padding: 0.16rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.author__tag:hover { background: var(--accent); color: var(--on-accent); }
+
+/* Social icons — always visible, circular buttons */
+.author-card .author__urls.social-icons {
+  display: flex !important;   /* override the theme's show/hide JS */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  list-style: none;
+  float: none;
+  position: static;
+  margin: 0.95rem 0 0;
+  padding: 0.95rem 0 0;
+  border-top: 1px solid var(--border);
+}
+.author-card .author__urls.social-icons li { margin: 0; }
+.author-card .author__urls.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text-muted) !important;
+  transition: transform 0.18s ease, background 0.18s ease,
+              color 0.18s ease, border-color 0.18s ease;
+}
+.author-card .author__urls.social-icons a:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent) !important;
+  transform: translateY(-2px);
+}
+.author-card .author__urls.social-icons i { font-size: 1.02rem; line-height: 1; }
+
+/* Defeat the theme's dropdown behaviour that hides/offsets .author__urls
+   (display:none; position:absolute; z-index:-1; + triangle pseudo-elements). */
+.sidebar .author-card .author__urls.social-icons {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: static !important;
+  z-index: auto !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-width: 0 0 1px 0 !important;
+}
+.author-card .author__urls::before,
+.author-card .author__urls::after { content: none !important; display: none !important; }
+.author-card .author__urls.social-icons a i { color: inherit; }
+
+/* ---------- News card (right column) -------------------------------------*/
+.news-sidebar { font-size: 0.92rem; }
+.news-card {
+  padding: 1.25rem 1.35rem;
+  max-height: calc(100vh - 8rem);
+  overflow-y: auto;
+}
+.news-card__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.news-card__dot {
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+  animation: news-pulse 2.2s infinite;
+}
+@keyframes news-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(63, 116, 192, 0.35); }
+  70%  { box-shadow: 0 0 0 8px rgba(63, 116, 192, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(63, 116, 192, 0); }
+}
+.news-list { list-style: none; margin: 0; padding: 0; }
+.news-item {
+  position: relative;
+  padding: 0 0 1rem 1.15rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed var(--border);
+  line-height: 1.5;
+}
+.news-item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+.news-item::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0.4rem;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+.news-item__date {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+}
+.news-item__text { display: block; color: var(--text); }
+.news-item__text a { color: var(--link); }
+
+/* ---------- Buttons, tables, notices, code -------------------------------*/
+.btn {
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  border: 0;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+
+table { background: var(--surface); border-color: var(--border); }
+th { background: var(--surface-2); color: var(--heading); }
+td, th { border-color: var(--border); }
+
+blockquote { border-left-color: var(--accent); color: var(--text-muted); }
+
+code, tt { background: var(--surface-2); color: var(--accent-2); border-radius: 6px; }
+pre, .highlight { background: var(--surface-2) !important; border-radius: var(--radius-sm); }
+
+/* archive listing items */
+.archive__item-title { margin-top: 0.4em; }
+.archive__item-excerpt { color: var(--text-muted); }
+.archive__subtitle { color: var(--heading); border-bottom-color: var(--border); }
+
+/* ---------- Footer --------------------------------------------------------*/
+.page__footer {
+  background: var(--surface) !important;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted) !important;
+  margin-top: 3rem;
+}
+.page__footer a,
+.page__footer-follow a { color: var(--text-muted) !important; }
+.page__footer a:hover { color: var(--accent) !important; }
+
+/* ---------- Responsive: collapse the 3 columns ---------------------------*/
+
+/* Tablet / small laptop: drop the News column full-width below, keep the
+   profile + main side by side. Ease the margins so content keeps its room. */
+@media (max-width: 1300px) {
+  :root { --page-margin: 6%; }
+  #main {
+    /* profile : main in the same 10 : 75 ratio (~12% / 88%); news wraps below */
+    grid-template-columns: var(--col-left) var(--col-main);
+  }
+  #main > .news-sidebar { grid-column: 1 / -1; }
+  .news-card { max-height: none; }
+}
+
+/* Narrow tablet & phone: single stacked column. */
+@media (max-width: 900px) {
+  :root { --page-margin: 5%; }
+  #main {
+    display: block;
+    padding: 1.4em 0;
+  }
+  #main > .sidebar,
+  #main > .page,
+  #main > .archive,
+  #main > .news-sidebar { width: 100% !important; }
+  #main > .sidebar { margin-bottom: 1.6rem !important; }
+  #main > .news-sidebar { margin-top: 1.6rem !important; }
+  .news-card { max-height: none; }
+  .page, .archive { padding: 1.4rem 1.25rem; }
+  .home-section__title { font-size: 1.4rem; }
+  .author__avatar img { max-width: 150px; }
+  .theme-toggle { right: 3.6rem; }   /* clear the hamburger button */
+}
+
+/* Small phones: tighten margins further. */
+@media (max-width: 480px) {
+  :root { --page-margin: 4%; }
+  .author__avatar img { max-width: 130px; }
+}
+
+/* Respect users who prefer no motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; }
+}

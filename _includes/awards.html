@@ -1,0 +1,12 @@
+{% comment %} Awards, rendered from _data/awards.yml, newest year first. {% endcomment %}
+{% if site.data.awards and site.data.awards.size > 0 %}
+  {% assign awards = site.data.awards | sort: 'year' | reverse %}
+  <ul class="award-list">
+    {% for award in awards %}
+      <li class="award-item">
+        <span class="award-year">{{ award.date | default: award.year }}</span>
+        <span class="award-text">{{ award.text }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------------------
+#  News / announcements — single source of truth for the News sidebar.
+#
+#  This list renders in the right-hand column on EVERY page of the site
+#  (home, publications, teaching, service, talks, and individual items).
+#
+#  To add an update: copy a block, put it at the TOP (newest first).
+#    - date : short label shown as a pill (free text, e.g. "July 2024")
+#    - text : the announcement. HTML and Markdown links are allowed.
+# ---------------------------------------------------------------------------
+
+- date: "May 2026"
+  text: 'Serving as a <b>PC member</b> for the 35th ACM International Conference on Information and Knowledge Management (<a href="https://cikm2026.org/" target="_blank">CIKM 2026</a>).'
+
+- date: "April 2026"
+  text: 'Joined <b>TU Wien</b> as a Postdoctoral Researcher.'
+
+- date: "July 2024"
+  text: 'Our paper <i>“ChatGPT as a Conversational Recommender System: A User-centric Analysis”</i> was nominated for the <b>Best Short Paper Award</b>.'
+
+- date: "March 2024"
+  text: 'Our paper <i>“ChatGPT as a Conversational Recommender System”</i> was accepted for publication at <a href="https://www.um.org/umap2024/" target="_blank">UMAP 2024</a>.'
+
+- date: "Sept 2023"
+  text: 'Two of our articles were accepted for workshops at <a href="https://recsys.acm.org/recsys23/" target="_blank">RecSys 2023, Singapore</a>.'
+
+- date: "April 2023"
+  text: "Co-organized GPS sessions at <a href=\"https://chi2023.acm.org/\" target=\"_blank\">CHI&nbsp;’23, Hamburg, Germany</a>."
+
+- date: "Sept 2022"
+  text: 'Served as a Student Volunteer (SV) at <a href="https://recsys.acm.org/recsys22/" target="_blank">ACM RecSys 2022, Seattle, USA</a>.'
