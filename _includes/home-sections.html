@@ -38,7 +38,7 @@
   {% comment %} Newest first: filenames start with the year, so sort by path. {% endcomment %}
   {% assign services = site.service | sort: 'path' | reverse %}
 
-  <h3 class="home-subhead">Invited reviewer</h3>
+  <h3 class="home-subhead">Invited Reviewer</h3>
   <ul class="inline-list">
     {% for post in services %}
       {% if post.content contains 'Reviewer for' %}
@@ -86,8 +86,7 @@
     {% assign talklist = site.talks | sort: 'date' | reverse %}
     {% for post in talklist %}
       <li>
-        <span class="inline-title">{{ post.title }}</span> —
-        {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}
+        <span class="inline-title">{{ post.title }}</span>{% if post.venue %} &mdash; {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% endif %}
         <span class="inline-year">({{ post.date | date: '%Y' }})</span>
       </li>
     {% endfor %}
