@@ -1,27 +1,43 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+# ---------------------------------------------------------------------------
+#  LOCAL PREVIEW TOOLCHAIN
 #
-#     bundle exec jekyll serve
+#  Uses plain Jekyll 4, which supports modern Ruby (including Ruby 4.0) out of
+#  the box — unlike the `github-pages` gem, which pins the very old Jekyll 3.9
+#  and breaks on new Ruby versions.
 #
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+#  This file affects ONLY your local `jekyll serve` preview. Your live site is
+#  still built by GitHub Pages using its own toolchain, so deployment is
+#  unchanged.
+#
+#  Run with:  bundle exec jekyll serve --livereload
+# ---------------------------------------------------------------------------
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3"
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
+# Force the Dart-Sass converter: it ships as a precompiled binary, so no C
+# compiler is needed (the older sassc-based 2.x line fails to build on Windows).
+gem "jekyll-sass-converter", "~> 3.0"
 
-# gem "jekyll"
-
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-# If you have any plugins, put them here!
+# Site plugins (must match the `plugins:` list in _config.yml).
 group :jekyll_plugins do
-  # gem "jekyll-archives"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-redirect-from"
 end
+
+# Standard-library gems that Ruby 3.4+/4.0 removed from the defaults but that
+# Jekyll still needs at runtime. `webrick` powers `jekyll serve` on Ruby 3+.
+gem "webrick"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+
+# Windows has no system timezone database, so Jekyll needs these to resolve the
+# site's timezone. (Pure-Ruby gems — safe on any platform.)
+gem "tzinfo"
+gem "tzinfo-data"

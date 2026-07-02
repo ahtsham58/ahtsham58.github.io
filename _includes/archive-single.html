@@ -35,7 +35,7 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ post.type }}, <i>{{ post.venue }}</i>{% if post.period %} &middot; {{ post.period }}{% elsif post.date %} &middot; {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}{% if post.location %} &middot; {{ post.location }}{% endif %} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
@@ -48,12 +48,23 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+    {% if post.citation %}
+      <p>Recommended citation: {{ post.citation }}</p>
+    {% endif %}
+
+    {% comment %} Resource links. [PDF] falls back to the existing paperurl.
+       Add `code:`, `evaldata:`, `dataset:` (or `pdf:`) URLs in a paper's front
+       matter and the matching link appears automatically. {% endcomment %}
+    {% assign pdf = post.pdf | default: post.paperurl %}
+    {% if pdf or post.software or post.data or post.code or post.evaldata or post.dataset %}
+      <p class="pub-links">
+        {% if pdf %}<a href="{{ pdf | strip }}" target="_blank" rel="noopener" class="pub-link pub-link--pdf">PDF</a>{% endif %}
+        {% if post.software %}<a href="{{ post.software | strip }}" target="_blank" rel="noopener" class="pub-link pub-link--software">Software</a>{% endif %}
+        {% if post.data %}<a href="{{ post.data | strip }}" target="_blank" rel="noopener" class="pub-link pub-link--data">Data</a>{% endif %}
+        {% if post.code %}<a href="{{ post.code | strip }}" target="_blank" rel="noopener" class="pub-link pub-link--code">Code</a>{% endif %}
+        {% if post.evaldata %}<a href="{{ post.evaldata | strip }}" target="_blank" rel="noopener" class="pub-link pub-link--evaldata">Evaluation data</a>{% endif %}
+        {% if post.dataset %}<a href="{{ post.dataset | strip }}" target="_blank" rel="noopener" class="pub-link pub-link--dataset">Dataset</a>{% endif %}
+      </p>
     {% endif %}
 
   </article>

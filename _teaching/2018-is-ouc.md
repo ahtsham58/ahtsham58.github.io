@@ -5,6 +5,7 @@ type: "Undergraduate course"
 permalink: /teaching/2018-is-ouc.md
 venue: "University of Klagenfurt"
 date: 2020-09-01
+period: "2020-2023"
 location: "Klagenfurt, Austria"
 ---
 

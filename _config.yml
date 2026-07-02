@@ -81,7 +81,9 @@ analytics:
 author:
   name             : "Ahtsham Manzoor"
   avatar           : "profile.jpeg"
-  bio              : "AI, NLP, HCI"
+  bio              : "Applied AI Scientist (Conversational AI, RecSys, HCI)"
+  role             : "Applied AI Scientist"
+  tags             : ["Conversational AI", "Data Science", "RecSys", "HCI", "Evaluations"]
   location         : "Vienna, Austria"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=VN29iVAAAAAJ&hl=en"
@@ -98,7 +100,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "ahtsham-manzoor-67a7b761/"
+  linkedin         : "ahtsham-manzoor-phd"
   orcid            : "https://orcid.org/0000-0001-9418-7539"
   pinterest        :
   soundcloud       :
@@ -265,8 +267,8 @@ permalink: /:categories/:title/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
-gems:
+# Plugins  (Jekyll 4 renamed the old `gems:` key to `plugins:`)
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

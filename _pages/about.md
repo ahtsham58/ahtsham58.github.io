@@ -60,13 +60,9 @@ Outside of work, I enjoy sightseeing, traveling, and exploring multi-cuisine foo
 Have something serious to discuss? do not hestitate to reach out.
 </div>
 
-<br><br>
+<!-- News now lives in _data/news.yml and renders in the right-hand News column on every page. -->
 
----
+{::nomarkdown}
+{% include home-sections.html %}
+{:/nomarkdown}
 
-###  News
-- <b>July 2024</b>: Our paper, titled <i>"ChatGPT as a Conversational Recommender System: A User-centric Analysis"</i>, was nominated for the <b>Best Short Paper Award</b>.  
-- <b>March 2024</b>: Our paper <i>"ChatGPT as a Conversational Recommender System: A User-centric Analysis"</i> was accepted for publication at <a href="https://www.um.org/umap2024/" target="_blank">UMAP 2024</a>.  
-- <b>September 2023</b>: Two of our articles were accepted for workshops at <a href="https://recsys.acm.org/recsys23/" target="_blank">RecSys 2023, Singapore</a>.  
-- <b>April 2023</b>: Co-organized GPS sessions at <a href="https://chi2023.acm.org/" target="_blank">CHI '23, Hamburg, Germany</a>.  
-- <b>September 2022</b>: Served as a Student Volunteer (SV) at <a href="https://recsys.acm.org/recsys22/" target="_blank">ACM RecSys 2022, Seattle, USA</a>.  
