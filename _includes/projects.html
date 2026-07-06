@@ -1,32 +1,47 @@
-{% comment %} Elegant project cards, rendered from _data/projects.yml {% endcomment %}
+{% comment %}
+  Project cards from _data/projects.yml, newest year first.
+  Each card is a FIXED-SIZE summary (title + ~30-word overview preview).
+  The full overview, publications and link appear in an elegant popover on hover.
+{% endcomment %}
 {% if site.data.projects and site.data.projects.size > 0 %}
+{% assign projects = site.data.projects | sort: 'year' | reverse %}
 <div class="project-grid">
-  {% for project in site.data.projects %}
-    <article class="project-card">
-      <h3 class="project-card__title">{{ project.title }}</h3>
+  {% for project in projects %}
+    <div class="project">
 
-      {% if project.overview %}
-        <p class="project-card__overview">
-          <span class="project-card__label">Overview</span>
-          {{ project.overview }}
-        </p>
-      {% endif %}
+      <article class="project-card">
+        {% if project.year %}<span class="project-card__year">{{ project.year }}</span>{% endif %}
+        <h3 class="project-card__title">{{ project.title }}</h3>
+        {% if project.overview %}
+          <p class="project-card__overview">{{ project.overview | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+        <span class="project-card__more">Hover for details &rarr;</span>
+      </article>
 
-      {% if project.publications and project.publications.size > 0 %}
-        <div class="project-card__pubs">
-          <span class="project-card__label">Publications</span>
-          <ul>
-            {% for pub in project.publications %}<li>{{ pub }}</li>{% endfor %}
-          </ul>
-        </div>
-      {% endif %}
+      <div class="project-popover" role="tooltip">
+        {% if project.year %}<span class="project-card__year">{{ project.year }}</span>{% endif %}
+        <h3 class="project-popover__title">{{ project.title }}</h3>
+        {% if project.overview %}
+          <p class="project-popover__overview">
+            <span class="project-card__label">Overview</span>{{ project.overview }}
+          </p>
+        {% endif %}
+        {% if project.publications and project.publications.size > 0 %}
+          <div class="project-card__pubs">
+            <span class="project-card__label">Publications</span>
+            <ul>
+              {% for pub in project.publications %}<li>{{ pub }}</li>{% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+        {% if project.link and project.link != "" %}
+          <a class="project-card__link" href="{{ project.link }}" target="_blank" rel="noopener">
+            Project Link <span aria-hidden="true">&rarr;</span>
+          </a>
+        {% endif %}
+      </div>
 
-      {% if project.link and project.link != "" %}
-        <a class="project-card__link" href="{{ project.link }}" target="_blank" rel="noopener">
-          Project Link <span aria-hidden="true">&rarr;</span>
-        </a>
-      {% endif %}
-    </article>
+    </div>
   {% endfor %}
 </div>
 {% endif %}

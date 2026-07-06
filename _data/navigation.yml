@@ -1,8 +1,5 @@
 # main links — single-page anchors (scroll to sections on the home page)
 main:
-  - title: "Publications"
-    url: /#publications
-
   - title: "Projects"
     url: /#projects
 
@@ -11,3 +8,6 @@ main:
 
   - title: "Services"
     url: /#service
+
+  - title: "Publications"
+    url: /#publications

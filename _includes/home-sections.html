@@ -7,19 +7,6 @@
   are rendered inline (one line per item) below.
 {% endcomment %}
 
-<section id="publications" class="home-section">
-  <h2 class="home-section__title">Publications</h2>
-  {% if site.author.googlescholar %}
-    <p class="home-section__note">
-      You can also find my articles on
-      <a href="{{ site.author.googlescholar }}" target="_blank">my Google Scholar profile</a>.
-    </p>
-  {% endif %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-</section>
-
 <section id="projects" class="home-section">
   <h2 class="home-section__title">Projects</h2>
   {% include projects.html %}
@@ -91,4 +78,17 @@
       </li>
     {% endfor %}
   </ul>
+</section>
+
+<section id="publications" class="home-section">
+  <h2 class="home-section__title">Publications</h2>
+  {% if site.author.googlescholar %}
+    <p class="home-section__note">
+      You can also find my articles on
+      <a href="{{ site.author.googlescholar }}" target="_blank">my Google Scholar profile</a>.
+    </p>
+  {% endif %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
 </section>

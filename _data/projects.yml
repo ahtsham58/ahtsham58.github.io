@@ -10,21 +10,62 @@
 #  These starter entries are examples drawn from your research — edit freely.
 # ---------------------------------------------------------------------------
 
-- title: "Conversational Recommender Systems (CRS)"
-  overview: "Investigated natural-language-generation and retrieval-based methods for multi-turn conversational recommendation, with a human-centric focus on the quality and usability of system responses."
+- title: "ALAP: Accessible LaTeX-based Authoring and Presentation for Persons with Vision Impairment"
+  year: "2016–2018"
+  overview: "ALAP is an accessibility-enhanced extension of the TeXlipse plugin for Eclipse, designed to enable inclusive LaTeX authoring for individuals with visual impairments. As the project lead, I directed the design and development of accessible editing, navigation, debugging, and document-presentation features, integrating real-time auditory feedback through text-to-speech (TTS). The system provides accessible mathematical editing, PDF interaction, keyboard-centric workflows, and assistive menu navigation, allowing users to efficiently create, edit, and present technical documents while significantly improving usability and independence in scientific writing."
   publications:
-    - "Generation-based vs. Retrieval-based Conversational Recommendation: A User-Centric Comparison (RecSys '21)"
-    - "End-to-End Learning for Conversational Recommendation: A Long Way to Go? (IntRS @ RecSys '20)"
-  link: "https://github.com/ahtsham58"
-
-- title: "ChatGPT as a Conversational Recommender System"
-  overview: "A user-centric analysis evaluating how effectively ChatGPT performs as a conversational recommender, examining recommendation quality and user perceptions."
-  publications:
-    - "ChatGPT as a Conversational Recommender System: A User-centric Analysis (UMAP 2024)"
+    - "Manzoor, A., Parvez, M., Shahid, S., &amp; Karim, A. (2018). Assistive Debugging to Support Accessible LaTeX Based Document Authoring. In Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility (pp. 432–434)."
+    - "Manzoor, A., Arooj, S., Zulfiqar, S., Parvez, M., Shahid, S., &amp; Karim, A. (2019). ALAP: Accessible LaTeX Based Mathematical Document Authoring and Presentation. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (pp. 1–12)."
   link: ""
 
-- title: "INFACT — Online Human Evaluation Framework"
-  overview: "An online framework for reproducible human evaluation of conversational recommendation systems, enabling controlled multi-turn user studies."
+- title: "Conversational Recommender Systems (CRS): From Historical Foundations to Transformer Architectures"
+  year: "2020–2022"
+  overview: "Investigates the evolution of conversational recommendation from knowledge-engineered systems to modern neural and transformer-based approaches. The project provides a comprehensive survey of CRS methodologies, interaction paradigms, and evaluation strategies while critically examining the practical usability of state-of-the-art end-to-end conversational models. Through large-scale human evaluations, the research revealed substantial limitations in current neural CRS, demonstrating that many generated responses lack contextual relevance and that existing evaluation protocols often overestimate model quality. The findings highlight the need for more reliable evaluation methodologies and trustworthy conversational recommendation systems."
   publications:
-    - "INFACT: An Online Human Evaluation Framework for Conversational Recommendation (KaRS @ RecSys '22)"
+    - "Jannach, D., Manzoor, A., Cai, W., &amp; Chen, L. (2021). A survey on conversational recommender systems. ACM Computing Surveys (CSUR), 54(5), 1–36."
+    - "End-to-End Learning for Conversational Recommendation: A Long Way to Go? IntRS Workshop at ACM RecSys '20 (2020)."
+    - "Conversational recommendation based on end-to-end learning: How far are we? Computers in Human Behavior Reports, Volume 4, Pages 9 (2021)."
+  link: ""
+
+- title: "Language Generation vs. Retrieval in Conversational Recommender Systems"
+  year: "2021–2022"
+  overview: "Investigates the comparative effectiveness of generation-based and retrieval-based approaches for conversational recommendation. While modern CRS predominantly rely on end-to-end neural language generation models trained on dialogue data, this work re-examines retrieval-based methods that select and adapt responses from historical conversations. Through multiple user studies, the research shows that retrieval-based systems can match or outperform state-of-the-art generation models in perceived response quality. The findings highlight limitations of current neural generation approaches and suggest that retrieval-based techniques remain a strong alternative or complementary strategy in CRS design."
+  publications:
+    - "Manzoor, A., &amp; Jannach, D. (2021). Generation-based vs. retrieval-based conversational recommendation: A user-centric comparison. In Proceedings of the 15th ACM Conference on Recommender Systems (pp. 515–520)."
+    - "Manzoor, A., &amp; Jannach, D. (2022). Revisiting Retrieval-based Approaches for Conversational Recommender Systems. In IIR."
+    - "Manzoor, A., &amp; Jannach, D. (2022). Towards Retrieval-based Conversational Recommendation. Information Systems, 109, 102083."
+  link: ""
+
+- title: "Impact of High-Quality Data Annotations on Knowledge-Aware Conversational Recommender Systems"
+  year: "2022"
+  overview: "Investigates how annotation quality influences the performance of end-to-end and retrieval-based conversational recommender systems. The project introduced INSPIRED2, a manually corrected version of the widely used INSPIRED dataset, addressing missing and erroneous item and entity annotations. Extensive experiments demonstrated that improved annotation quality consistently enhances recommendation accuracy and response quality across multiple benchmark CRS models. The publicly released dataset provides a reliable benchmark for future research and underscores the critical role of high-quality annotated data in developing robust knowledge-aware conversational recommendation systems."
+  publications:
+    - "INSPIRED2: An Improved Dataset for Sociable Conversational Recommendation. 4th Workshop of Knowledge-aware and Conversational Recommender Systems (KaRS), colocated with RecSys '22 (2022)."
+  link: "https://github.com/ahtsham58/INSPIRED2"
+
+- title: "LLMs and Conversational Recommendation: User Perception of Response Quality"
+  year: "2024"
+  overview: "Investigates how users perceive the quality of large language model-based conversational recommender systems, with a focus on ChatGPT in movie recommendation scenarios. Through an online user study with 190 participants, the work compares ChatGPT against a strong retrieval-based conversational baseline. Results show that ChatGPT is generally perceived as more meaningful, particularly for direct recommendation tasks, but exhibits limitations in maintaining contextual consistency in longer dialogues. Further analysis reveals that information adequacy and recommendation accuracy are the strongest drivers of perceived quality, while correlations with traditional automatic metrics such as BLEU and ROUGE are weak, highlighting the need for human-centered evaluation in CRS."
+  publications:
+    - "ChatGPT as a Conversational Recommender System: A User-Centric Analysis. 32nd ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2024), Cagliari, Sardinia, Italy (2024)."
+  link: "https://github.com/ahtsham58/ChatGPT-as-a-Conversational-Recommender-System"
+
+- title: "Designing New Evaluation Metrics for Interactive Systems"
+  year: "2022–2023"
+  overview: "Studies the gap between offline evaluation metrics and human perception in conversational recommendation. While CRS research predominantly relies on computational measures, this work highlights their limited correlation with subjective user judgments such as meaningfulness. Through a within-subject user study (N=90), the project analyzes how user-related, system-related, and context-related factors influence perceived response quality. Results show that domain knowledge and response informativeness significantly improve perceived meaningfulness, while user experience with chatbots and age introduce systematic differences in expectations and satisfaction. The findings emphasize the need for user-centric formalization of CRS evaluation beyond offline metrics."
+  publications:
+    - "INFACT: An Online Human Evaluation Framework for Conversational Recommendation. 4th Workshop of Knowledge-aware and Conversational Recommender Systems (KaRS), colocated with RecSys '22 (2022)."
+    - "Factors Influencing the Perceived Meaningfulness of System Responses in Conversational Recommendation. IntRS'23: Joint Workshop on Interfaces and Human Decision Making for Recommender Systems, Singapore (2023)."
+  link: ""
+
+- title: "Bridging Editorial Expertise and Automated Recommendation in Public Service Media (PSM)"
+  year: "2023"
+  overview: "Explores how domain knowledge from editors and publishers can be integrated into automated streaming recommender systems to improve content diversity, transparency, and relevance. Focusing on the challenges faced by PSM providers such as ARD under digital transformation, the work highlights the limitations of purely data-driven recommendation approaches in heterogeneous content environments. To address this gap, the study introduces the ARD-M dataset, incorporating user interactions, metadata, and editorial signals. Empirical analyses demonstrate how different knowledge sources (e.g., editorial, publisher, and external metadata) influence diversity outcomes, providing a foundation for aligning human editorial expertise with AI-driven recommendation systems."
+  publications:
+    - "Effects of Human-curated Content on Diversity in PSM: ARD-M Dataset. 1st Workshop on Learning and Evaluating Recommendations with Impressions (LERI), in conjunction with ACM RecSys 2023, Singapore (2023)."
+  link: "https://www.kaggle.com/datasets/marcelhauck/ardmovies/"
+
+- title: "Knowledge-Grounded LLM Explanations for Zero-Shot HVAC Fault Diagnosis"
+  year: "2026"
+  overview: "Addresses the challenge of HVAC fault underdiagnosis in Building Management Systems (BMS) caused by fragmented sensor data and limited interpretability for engineers. The work introduces BMS-SEM-RAG, a zero-shot, topology-aware framework that integrates building information models (BIM) and domain knowledge into a unified knowledge graph for structured fault reasoning and explanation generation using LLMs. Evaluations across multiple LLMs and HVAC datasets show that topology-aware semantic grounding significantly improves diagnostic accuracy and reduces hallucinations. The study further highlights model-dependent trade-offs between accuracy, latency, and reasoning depth, demonstrating the value of knowledge-grounded LLMs for reliable HVAC fault diagnosis."
   link: ""
