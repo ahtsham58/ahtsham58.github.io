@@ -51,7 +51,7 @@ and Human-Computer Interaction (assistive technologies, human factors, UX)</i>.
 
 <div style="text-align: center;">
 Topics that excites me the most:
-  <img src="./images/research-interests.png" alt="Research Interests" style="max-width: 80%; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);">
+  <img src="./images/research-interests.svg" alt="Research Interests" style="max-width: 80%; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);">
   
 </div>
 <br><br>
