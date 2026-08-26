@@ -11,12 +11,11 @@ redirect_from:
 <div style="text-align: justify; line-height: 1.6; font-size: 16px;"> 
 
 Hi, I’m <b>Ahtsham Manzoor</b> — an Applied AI Scientist and lifelong technologist, fascinated by how ideas can evolve into intelligent systems that make life easier, smoother, and more meaningful.
-<br> Currently, I work at <a href="https://www.tuwien.at/en/" target="_blank">TU Wien</a>, Austria, within the Research Unit of _Integral Building Technology_</a>, 
-where I investigate <b>energy optimization solutions in HVAC for smart buildings</b> using <b>AI and data-driven methods</b>. 
+<br> Currently, I work at <a href="https://www.tuwien.at/en/" target="_blank">TU Wien</a>, Austria, within the Research Unit of Integral Building Technology, where I investigate <b>AI-driven energy optimization and fault diagnosis for HVAC systems in smart buildings</b>. My research focuses on <b>knowledge-grounded conversational interfaces for HVAC fault diagnosis and explanation using Knowledge Graphs (KGs)</b>. I develop <b>natural-language Q&A</b> for fault diagnosis, alongside methods to assess <b>fault severity, energy waste, and carbon emissions</b> to support maintenance prioritization. In close collaboration with <b>industry partners in the energy analytics sector</b>, we aim to AI research into building technology, that serves downstream industrial usecases via applications. Our goal is to develop practical solutions for more efficient and sustainable building operations.
 <br><br>
 
 From an early age, I was drawn to sciences. Choosing pre-engineering in high school felt like destiny. 
-After a highly competitive entrance process; in 2011, I was admitted to the BS Computer Science program at a prestigious public engineering institute — <a href="https://uet.edu.pk/" target="_blank">University of Engineering and Technology (UET), Lahore</a>. 
+After a highly competitive entrance process; I was admitted to the BS Computer Science program in 2011 at a prestigious public engineering institute — <a href="https://uet.edu.pk/" target="_blank">University of Engineering and Technology (UET), Lahore</a>. 
 <br>
 
 During my BSc, I gained hands-on experience and began my career as a Software Developer (Intern) in 2014. 
@@ -44,7 +43,7 @@ I see myself as a <b>scientific liaison</b> between **R&D, engineering, and desi
 
 
 My primary research interests lie at the intersection of <i>**Artificial Intelligence (AI)**, **Natural Language Processing (NLP)**, 
-and **Human-Computer Interaction** (assistive technologies, human factors, UX)</i>.  
+and **Human-Computer Interaction** (user experience (UX), human factors)</i>. Overall, I applied my diverse skillset and uniue scientific accumen to several domains scuh as e-commerce, insurance, auto-financing, and energy systems.   
   
 <br><br>
 

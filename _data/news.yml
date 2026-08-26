@@ -8,6 +8,8 @@
 #    - date : short label shown as a pill (free text, e.g. "July 2024")
 #    - text : the announcement. HTML and Markdown links are allowed.
 # ---------------------------------------------------------------------------
+- date: "August 2026"
+  text: 'Attending the <b>20th ACM Conference on Recommender Systems (<a href="https://recsys.acm.org/recsys2026/" target="_blank">RecSys 2026</a>)</b> in Minneapolis, Minnesota, USA, September 28–October 2, 2026.'
 
 - date: "May 2026"
   text: 'Serving as a <b>PC member</b> for the 35th ACM International Conference on Information and Knowledge Management (<a href="https://cikm2026.org/" target="_blank">CIKM 2026</a>).'
@@ -26,6 +28,3 @@
 
 - date: "April 2023"
   text: "Co-organized GPS sessions at <a href=\"https://chi2023.acm.org/\" target=\"_blank\">CHI&nbsp;’23, Hamburg, Germany</a>."
-
-- date: "Sept 2022"
-  text: 'Served as a Student Volunteer (SV) at <a href="https://recsys.acm.org/recsys22/" target="_blank">ACM RecSys 2022, Seattle, USA</a>.'
