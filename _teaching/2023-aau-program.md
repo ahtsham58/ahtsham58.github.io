@@ -8,4 +8,4 @@ date: 2023-08-08
 location: "Klagenfurt, Austria"
 ---
 
-Course instructor, co-ordinator.
+Participant (79 hours).
