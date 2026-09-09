@@ -10,8 +10,13 @@ redirect_from:
 
 <div style="text-align: justify; line-height: 1.6; font-size: 16px;"> 
 
-Hi, I’m <b>Ahtsham Manzoor</b> — an Applied AI Scientist and lifelong technologist, fascinated by how ideas can evolve into intelligent systems that make life easier, smoother, and more meaningful.
-<br> Currently, I work at <a href="https://www.tuwien.at/en/" target="_blank">TU Wien</a>, Austria, within the Research Unit of Integral Building Technology, where I investigate <b>AI-driven energy optimization and fault diagnosis for HVAC systems in smart buildings</b>. My research focuses on <b>knowledge-grounded conversational interfaces for HVAC fault diagnosis and explanation using Knowledge Graphs (KGs)</b>. I develop <b>natural-language Q&A</b> for fault diagnosis, alongside methods to assess <b>fault severity, energy waste, and carbon emissions</b> to support maintenance prioritization. In close collaboration with <b>industry partners in the energy analytics sector</b>, we aim to AI research into building technology, that serves downstream industrial usecases via applications. Our goal is to develop practical solutions for more efficient and sustainable building operations.
+Hi, I’m <b>Ahtsham Manzoor</b> — an Applied AI Scientist and lifelong technologist, fascinated by how ideas can be evolved into intelligent systems that make life easier, smooth, and more meaningful TO HUMANS.
+<br> 
+
+Currently, I work at <a href="https://www.tuwien.at/en/" target="_blank">TU Wien</a>, Austria, within the Research Unit of Integral Building Technology, where I investigate <b>AI-driven energy optimization and fault diagnosis domain for HVAC systems in smart buildings/cities</b>. Using Generative AI tech stack, I investigate how conversatioanl assistants can alleviate part of the burden of an operating engineer in HVAC fault detection and diagnosis via natural langauge explanations.  
+
+My primary research interests lie at the intersection of <i><b>Recommender Systems</b>, <b>Conversational AI </b>, <b>Natural Language Processing (NLP)</b>, and <b>Human-Computer Interaction</b></i>.
+
 <br><br>
 
 From an early age, I was drawn to sciences. Choosing pre-engineering in high school felt like destiny. 
@@ -31,15 +36,14 @@ I investigated natural language generation models (e.g., GPT, BERT, Transformers
 with a particular focus on their effectiveness in terms of quality and usability from a <b>human-centric</b> standpoint. 
 <br><br>
 
-In 2023, this work led to my PhD project conclusion in Applied AI (ML/NLP/HCI), with <b>10+ peer-reviewed publications</b>.  
+In 2023, this work led to my <b> PhD dissertation </b>.  
 In essence, it was a transformative journey, where in addition to the persuit of becoming an <i>independent researcher</i>, and experiencing teaching at university, 
 I explored how humans interact with multi-turn conversational agents for example, <i>today's ChatGPT</i>; and how technology can feel more natural, predictable, and human-intuitive. 
 <br><br>
-Over the past 12 years, I have been fortunate to work across research labs, startups, and global enterprises in domains including travel and insurance, media, auto finance, e-commerce, and enterprise digital and data platforms. From gaining scientific exposure to solving practical problems, I see myself as a <b>scientific liaison</b> between <b>R&D, engineering, and design</b>, eager to apply the expertise I have developed over the years at a broader practical scale, while continuing to learn, build expertise, and create meaningful impact.
+Over the past decade, I have been fortunate to work across research labs, startups, and global enterprises in domains including travel and insurance, media, auto finance, e-commerce, and enterprise digital and data platforms. From gaining scientific exposure to solving practical problems, I see myself as a <b>scientific liaison</b> between <b>R&D, engineering, and design</b>, eager to apply the expertise I have developed over the years at a broader practical scale, while continuing to learn, build expertise, and create meaningful impact.
 <br><br>
 
 
-My primary research interests lie at the intersection of <i><b>Artificial Intelligence (AI/ML)</b>, <b>Natural Language Processing (NLP)</b>, and <b>Human-Computer Interaction</b> (user experience (UX), human factors)</i>.
   
 <br><br>
 
