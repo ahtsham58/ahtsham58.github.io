@@ -404,6 +404,13 @@ hr { border-color: var(--border); }
 }
 @media (max-width: 600px) {
   .project-grid { grid-template-columns: 1fr; }   /* single column on phones */
+  .project-popover { width: 100%; }   /* avoid horizontal overflow when stacked */
+}
+/* right-column cards: anchor the wider popover to the right edge so it opens
+   toward the left column instead of overflowing past the page edge */
+.project:nth-child(2n) .project-popover {
+  left: auto;
+  right: 0;
 }
 /* wrapper: lets the popover overflow beyond the fixed-size card */
 .project { position: relative; }
@@ -491,8 +498,8 @@ hr { border-color: var(--border); }
 .project-popover {
   position: absolute;
   top: 0; left: 0; right: auto;
-  width: 100%;
-  max-width: 28rem;   /* hug a comfortable reading width (no inner right gap) */
+  width: 200%;   /* 2x the card width for a roomier popover */
+  max-width: 56rem;
   z-index: 40;
   background: var(--surface);
   border: 1px solid var(--accent-2);
@@ -530,6 +537,9 @@ hr { border-color: var(--border); }
   color: var(--text);
   line-height: 1.6;
   font-size: 0.95rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .project-card__pubs { margin: 0 0 1.1rem; }
@@ -539,6 +549,9 @@ hr { border-color: var(--border); }
   font-size: 0.9rem;
   line-height: 1.45;
   margin-bottom: 0.35rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 .project-card__link {
   display: inline-flex;
